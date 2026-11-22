@@ -1,0 +1,182 @@
+2.8.0: Pulling from opensearchproject/opensearch
+3.9: Pulling from library/zookeeper
+b61e4a241c46: Pulling fs layer
+fc90cecc7427: Pulling fs layer
+0086aac11276: Pulling fs layer
+7e9453a04b3d: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+10569ca7ee84: Pulling fs layer
+2e3065807aad: Pulling fs layer
+4f4fb700ef54: Already exists
+2515db4676ad: Pulling fs layer
+ba082564e660: Pulling fs layer
+e04650962873: Pulling fs layer
+9f3d3c1f671f: Pulling fs layer
+33bfcf1bc771: Pulling fs layer
+e16844efa1e5: Pulling fs layer
+31abedea78a5: Pulling fs layer
+7a6553a28fae: Pulling fs layer
+eb434a9d146e: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Already exists
+3.4: Pulling from library/traefik
+2e3065807aad: Download complete
+fc90cecc7427: Download complete
+b61e4a241c46: Download complete
+33bfcf1bc771: Download complete
+2515db4676ad: Download complete
+ba082564e660: Download complete
+e04650962873: Download complete
+0086aac11276: Download complete
+7e9453a04b3d: Download complete
+10569ca7ee84: Download complete
+eb434a9d146e: Download complete
+e16844efa1e5: Download complete
+7a6553a28fae: Download complete
+9f3d3c1f671f: Download complete
+14.13: Pulling from library/postgres
+31abedea78a5: Download complete
+7.0.12: Pulling from library/mongo
+3.1: Pulling from library/neo4j
+1e4824bd00e9: Download complete
+3f50deab580f: Download complete
+4ce301b7ca71: Pulling fs layer
+9824c27679d3: Pulling fs layer
+69a89d47723e: Pulling fs layer
+2ab6106193c6: Pulling fs layer
+4827700d7c77: Pulling fs layer
+2d429b9e73a6: Pulling fs layer
+e19d151f086a: Pulling fs layer
+8bcada4d21a4: Pulling fs layer
+f208fc972da5: Pulling fs layer
+3c98c3576ddb: Pulling fs layer
+f588171285a1: Pulling fs layer
+40693100d656: Pulling fs layer
+df8d3deaa47c: Pulling fs layer
+d86466467f89: Pulling fs layer
+6ee9a2e499ca: Pulling fs layer
+5cb7031207a4: Pulling fs layer
+8d484f1e7989: Pulling fs layer
+cb05aa8d998c: Pulling fs layer
+d6268a37a75c: Pulling fs layer
+857cc8cb19c0: Pulling fs layer
+ced7a238bbe6: Pulling fs layer
+c2dcbe55d7d8: Pulling fs layer
+02b2514837c9: Pulling fs layer
+22133372085a: Pulling fs layer
+8d8896cc7f27: Pulling fs layer
+21700c8b4854: Pulling fs layer
+4ce301b7ca71: Download complete
+26bc5bf1aa3e: Pulling fs layer
+4fe2ade4980c: Pulling fs layer
+6fc58a8d4ae4: Pulling fs layer
+819f4a45746c: Pulling fs layer
+6b424cc95557: Pulling fs layer
+5226b1091189: Pulling fs layer
+e3530dee375a: Pulling fs layer
+9824c27679d3: Download complete
+69a89d47723e: Download complete
+f4d408d2acb7: Download complete
+4f3ba3217769: Download complete
+cb05aa8d998c: Download complete
+e19d151f086a: Download complete
+4827700d7c77: Download complete
+9824c27679d3: Pull complete
+8bcada4d21a4: Download complete
+f208fc972da5: Download complete
+69a89d47723e: Pull complete
+2d429b9e73a6: Download complete
+2ab6106193c6: Download complete
+40693100d656: Download complete
+6ee9a2e499ca: Download complete
+3c98c3576ddb: Download complete
+f588171285a1: Download complete
+df8d3deaa47c: Download complete
+5cb7031207a4: Download complete
+8d484f1e7989: Download complete
+ba082564e660: Pull complete
+8d8896cc7f27: Download complete
+6b424cc95557: Download complete
+5226b1091189: Download complete
+d6268a37a75c: Download complete
+02b2514837c9: Download complete
+26bc5bf1aa3e: Download complete
+4fe2ade4980c: Download complete
+857cc8cb19c0: Download complete
+ced7a238bbe6: Download complete
+c2dcbe55d7d8: Download complete
+22133372085a: Download complete
+2ab6106193c6: Pull complete
+771bd0e9fdb4: Download complete
+fa424203b8ea: Download complete
+d86466467f89: Download complete
+d8655679981a: Download complete
+819f4a45746c: Download complete
+e3530dee375a: Download complete
+21700c8b4854: Download complete
+6fc58a8d4ae4: Download complete
+90168fa1ebfb: Download complete
+2d429b9e73a6: Pull complete
+4fe2ade4980c: Pull complete
+0086aac11276: Pull complete
+e19d151f086a: Pull complete
+6fc58a8d4ae4: Pull complete
+4ce301b7ca71: Pull complete
+Digest: sha256:06ddf61ee653caf4f4211a604e657f084f4727f762c16f826c97aafbefcb279e
+Status: Downloaded newer image for traefik:3.4
+docker.io/library/traefik:3.4
+857cc8cb19c0: Pull complete
+ced7a238bbe6: Pull complete
+8bcada4d21a4: Pull complete
+f208fc972da5: Pull complete
+02b2514837c9: Pull complete
+7e9453a04b3d: Pull complete
+22133372085a: Pull complete
+3c98c3576ddb: Pull complete
+819f4a45746c: Pull complete
+e04650962873: Pull complete
+6b424cc95557: Pull complete
+fc90cecc7427: Pull complete
+5226b1091189: Pull complete
+c2dcbe55d7d8: Pull complete
+8d8896cc7f27: Pull complete
+40693100d656: Pull complete
+f588171285a1: Pull complete
+df8d3deaa47c: Pull complete
+9f3d3c1f671f: Pull complete
+33bfcf1bc771: Pull complete
+e16844efa1e5: Pull complete
+31abedea78a5: Pull complete
+7a6553a28fae: Pull complete
+e3530dee375a: Pull complete
+26bc5bf1aa3e: Pull complete
+Digest: sha256:df24e0b3847256dc28d0f7538027861b63753ba8fe4149a88eb005c5addf3eb7
+Status: Downloaded newer image for neo4j:3.1
+docker.io/library/neo4j:3.1
+eb434a9d146e: Pull complete
+4f4fb700ef54: Pull complete
+2515db4676ad: Pull complete
+Digest: sha256:23f7fe549a6be53e39f9bf90cfa82542b4c7df8e8a19374ce4f3625cd11fa86b
+Status: Downloaded newer image for zookeeper:3.9
+docker.io/library/zookeeper:3.9
+d86466467f89: Pull complete
+6ee9a2e499ca: Pull complete
+5cb7031207a4: Pull complete
+8d484f1e7989: Pull complete
+cb05aa8d998c: Pull complete
+4827700d7c77: Pull complete
+Digest: sha256:9fcd27ebadf8d8fb1f257b1799eff6363cb0d947ffff046de5d49915f469ca08
+Status: Downloaded newer image for postgres:14.13
+docker.io/library/postgres:14.13
+21700c8b4854: Pull complete
+d6268a37a75c: Pull complete
+Digest: sha256:ae1cf99fa7bfb007db8416ad4f3980c46054d949fa55d28e6d301a813fee6c06
+Status: Downloaded newer image for mongo:7.0.12
+docker.io/library/mongo:7.0.12
+10569ca7ee84: Pull complete
+4f4fb700ef54: Pull complete
+2e3065807aad: Pull complete
+b61e4a241c46: Pull complete
+Digest: sha256:7d7f306996c0901956e0c413c817f4e249bd3d27c9c9ea6460bd7da88df73039
+Status: Downloaded newer image for opensearchproject/opensearch:2.8.0
+docker.io/opensearchproject/opensearch:2.8.0

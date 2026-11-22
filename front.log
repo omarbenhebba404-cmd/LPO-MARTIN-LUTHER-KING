@@ -1,0 +1,179 @@
+Unable to find image 'opendigitaleducation/node:18-alpine-pnpm' locally
+18-alpine-pnpm: Pulling from opendigitaleducation/node
+5fe843d182d4: Pulling fs layer
+38a8310d387e: Pulling fs layer
+1b970ccead88: Pulling fs layer
+e27d76322248: Pulling fs layer
+fdd316e9b466: Pulling fs layer
+55161ed81b38: Pulling fs layer
+4a5b8821c595: Pulling fs layer
+c2c93f42fdca: Pulling fs layer
+e8a051ffc6bf: Pulling fs layer
+35d5d9d04458: Pulling fs layer
+416ffa20f70f: Pulling fs layer
+b97ebda7e7fb: Download complete
+5fe843d182d4: Download complete
+fdd316e9b466: Download complete
+38a8310d387e: Download complete
+e27d76322248: Download complete
+55161ed81b38: Download complete
+4a5b8821c595: Download complete
+38a8310d387e: Pull complete
+1b970ccead88: Download complete
+c2c93f42fdca: Download complete
+35d5d9d04458: Download complete
+416ffa20f70f: Download complete
+1b970ccead88: Pull complete
+e8a051ffc6bf: Download complete
+e27d76322248: Pull complete
+fdd316e9b466: Pull complete
+55161ed81b38: Pull complete
+4a5b8821c595: Pull complete
+c2c93f42fdca: Pull complete
+e8a051ffc6bf: Pull complete
+35d5d9d04458: Pull complete
+5fe843d182d4: Pull complete
+416ffa20f70f: Pull complete
+Digest: sha256:832bd277e8f6a5f5bdff7e78af5bbac193766f18e1ca5618a7dc4d83cd32a927
+Status: Downloaded newer image for opendigitaleducation/node:18-alpine-pnpm
+yarn install v1.22.22
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning Pattern ["entcore-css-lib@npm:ode-csslib@main"] is trying to unpack in the same destination "/home/node/.cache/yarn/v6/npm-entcore-css-lib-4.3.11-09e9d8a8d35d80207936014cf2dfa3ff094cbc42-integrity/node_modules/entcore-css-lib" as pattern ["entcore-css-lib@npm:ode-csslib@4.3.11"]. This could result in non-deterministic behavior, skipping.
+warning Pattern ["entcore-generic-icons@github:edificeio/generic-icons"] is trying to unpack in the same destination "/home/node/.cache/yarn/v6/npm-entcore-generic-icons-1.5.1-960f4af943706812f9ebae81a39b7f521bb2fc3b/node_modules/entcore-generic-icons" as pattern ["entcore-generic-icons@github:edificeio/generic-icons#master"]. This could result in non-deterministic behavior, skipping.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 7.36s.
+yarn install v1.22.22
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 6.11s.
+
+   ╭───────────────────────────────────────────────────────────────────╮
+   │                                                                   │
+   │                Update available! 9.15.0 → 12.21.0.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v12.21.0   │
+   │                 Run "pnpm add -g pnpm" to update.                 │
+   │                                                                   │
+   ╰───────────────────────────────────────────────────────────────────╯
+
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 37, reused 0, downloaded 11, added 0
+Progress: resolved 50, reused 0, downloaded 18, added 0
+Progress: resolved 140, reused 0, downloaded 109, added 0
+Progress: resolved 281, reused 0, downloaded 256, added 0
+Progress: resolved 494, reused 0, downloaded 438, added 0
+Progress: resolved 677, reused 0, downloaded 619, added 0
+Progress: resolved 806, reused 0, downloaded 795, added 0
+Progress: resolved 834, reused 0, downloaded 806, added 0
+Progress: resolved 880, reused 0, downloaded 815, added 0
+Progress: resolved 883, reused 0, downloaded 824, added 0
+Progress: resolved 883, reused 0, downloaded 832, added 0
+Progress: resolved 883, reused 0, downloaded 834, added 0
+Progress: resolved 883, reused 0, downloaded 848, added 0
+Progress: resolved 932, reused 0, downloaded 899, added 0
+Progress: resolved 962, reused 0, downloaded 919, added 0
+Progress: resolved 1005, reused 0, downloaded 930, added 0
+Progress: resolved 1033, reused 0, downloaded 1018, added 0
+ WARN  37 deprecated subdependencies found: @types/earcut@3.2.4, acorn-dynamic-import@2.0.2, angular-route@1.8.3, angular-sanitize@1.8.3, angular@1.8.3, axios@0.15.3, clone-buffer@1.0.0, conventional-changelog-atom@2.0.8, conventional-changelog-cli@2.0.12, conventional-changelog-codemirror@2.0.8, conventional-changelog-core@3.2.3, conventional-changelog-ember@2.0.9, conventional-changelog-eslint@3.0.9, conventional-changelog-express@2.0.6, conventional-changelog-jquery@3.0.11, conventional-changelog-jshint@2.0.9, core-js@2.6.12, core-js@3.8.3, core-js@3.9.1, default-resolution@2.0.0, fsevents@1.2.13, git-raw-commits@2.0.0, git-semver-tags@2.0.3, glob@7.2.3, gulp-util@3.0.8, inflight@1.0.6, lodash.clone@4.5.0, lodash.template@3.6.2, lodash.template@4.18.1, path-dirname@1.0.2, q@1.5.1, resolve-url@0.2.1, source-map-resolve@0.5.3, source-map-url@0.4.1, ua-parser-js@0.7.28, urix@0.1.0, uuid@2.0.3
+Packages: +1048
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1044, reused 0, downloaded 1020, added 0
+Progress: resolved 1044, reused 0, downloaded 1022, added 379
+Progress: resolved 1044, reused 0, downloaded 1022, added 851
+Progress: resolved 1044, reused 0, downloaded 1022, added 1030
+Progress: resolved 1044, reused 0, downloaded 1033, added 1045
+Progress: resolved 1044, reused 0, downloaded 1033, added 1046
+Progress: resolved 1044, reused 0, downloaded 1033, added 1048, done
+.../core-js@3.8.3/node_modules/core-js postinstall$ node -e "try{require('./postinstall')}catch(e){}"
+.../core-js@3.48.0/node_modules/core-js postinstall$ node -e "try{require('./postinstall')}catch(e){}"
+.../core-js@2.6.12/node_modules/core-js postinstall$ node -e "try{require('./postinstall')}catch(e){}"
+.../core-js@3.9.1/node_modules/core-js postinstall$ node -e "try{require('./postinstall')}catch(e){}"
+.../core-js@3.8.3/node_modules/core-js postinstall: Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+.../core-js@3.8.3/node_modules/core-js postinstall: The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+.../core-js@3.8.3/node_modules/core-js postinstall: > https://opencollective.com/core-js 
+.../core-js@3.8.3/node_modules/core-js postinstall: > https://www.patreon.com/zloirock 
+.../core-js@3.8.3/node_modules/core-js postinstall: Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+.../core-js@3.48.0/node_modules/core-js postinstall: Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+.../core-js@3.48.0/node_modules/core-js postinstall: The project needs your help! Please consider supporting core-js:
+.../core-js@3.48.0/node_modules/core-js postinstall: > https://opencollective.com/core-js 
+.../core-js@3.48.0/node_modules/core-js postinstall: > https://patreon.com/zloirock 
+.../core-js@3.48.0/node_modules/core-js postinstall: > https://boosty.to/zloirock 
+.../core-js@3.48.0/node_modules/core-js postinstall: > bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz 
+.../core-js@3.48.0/node_modules/core-js postinstall: I highly recommend reading this: https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md 
+.../core-js@3.9.1/node_modules/core-js postinstall: Done
+.../core-js@2.6.12/node_modules/core-js postinstall: Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+.../core-js@2.6.12/node_modules/core-js postinstall: The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+.../core-js@2.6.12/node_modules/core-js postinstall: > https://opencollective.com/core-js 
+.../core-js@2.6.12/node_modules/core-js postinstall: > https://www.patreon.com/zloirock 
+.../core-js@2.6.12/node_modules/core-js postinstall: Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+.../core-js@3.48.0/node_modules/core-js postinstall: Done
+.../core-js@3.8.3/node_modules/core-js postinstall: Done
+.../core-js@2.6.12/node_modules/core-js postinstall: Done
+.../es5-ext@0.10.64/node_modules/es5-ext postinstall$  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+.../node_modules/uglifyjs-webpack-plugin postinstall$ node lib/post_install.js
+.../node_modules/uglifyjs-webpack-plugin postinstall: Done
+.../es5-ext@0.10.64/node_modules/es5-ext postinstall: Done
+
+dependencies:
++ entcore 4.8.23
++ ode-explorer 2.6.19
++ ode-ngjs-front 1.4.32
++ ode-ts-client 1.2.8
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @edifice.io/react 2.6.15
+  └── ✕ unmet peer @tanstack/react-query@5.62.7: found 5.108.2
+
+Done in 30.3s
+cp: cannot stat 'mods/com.opendigitaleducation~explorer~2.6.19-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.openent~appointments~1.7.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.openent~exercizer~4.4.12-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.openent~formulaire~3.1.13-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.openent~search-engine~2.2.6-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.openent~share-big-files~2.3.8-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.wseduc~fake-sso~2.2.5-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.wseduc~pages~2.2.7-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.wseduc~rack~3.2.14-fat.jar/public': Not a directory
+cp: cannot stat 'mods/fr.wseduc~stats~2.6.5-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~actualites~3.2.15-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~bookmark~2.2.5-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~calendar~4.3.9-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~collaborative-editor~3.4.10-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~collaborativewall~3.5.17-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~community~2.2.8-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~forum~2.2.7-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~mindmap~3.5.17-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~poll~2.2.6-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~rbs~2.2.7-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~rss~2.2.4-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~support~4.1.11-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~timelinegenerator~3.4.12-fat.jar/public': Not a directory
+cp: cannot stat 'mods/net.atos~wiki~3.6.21-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~admin~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~app-registry~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~archive~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~audience~6.18.1/public': No such file or directory
+cp: cannot stat 'mods/org.entcore~audience~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~auth~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~blog~5.5.19-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~broker~6.16.11/public': No such file or directory
+cp: cannot stat 'mods/org.entcore~broker~6.16.11-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~cas~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~cns~2.2.5-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~communication~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~conversation~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~directory~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~infra~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~portal~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~probes~6.16.11/public': No such file or directory
+cp: cannot stat 'mods/org.entcore~probes~6.16.11-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~timeline~6.18.1-fat.jar/public': Not a directory
+cp: cannot stat 'mods/org.entcore~workspace~6.18.1-fat.jar/public': Not a directory

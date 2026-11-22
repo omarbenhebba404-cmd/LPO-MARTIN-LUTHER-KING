@@ -1,0 +1,2435 @@
+2026/11/22 09:18:55 - INFO - Version with Jinja2 template engine
+2026/11/22 09:18:55 - INFO - Generating configuration for modules based in /opt/conf
+2026/11/22 09:18:57 - INFO - Loading additional properties from file: /out/conf.properties
+2026/11/22 09:18:57 - INFO - Adding property from file: mode = 'dev'
+2026/11/22 09:18:57 - INFO - Adding property from file: feeder = 'AAF'
+2026/11/22 09:18:57 - INFO - Adding property from file: importDirectory = '/home/wse/aaf'
+2026/11/22 09:18:57 - INFO - Adding property from file: logDirectory = '/tmp/log'
+2026/11/22 09:18:57 - INFO - Adding property from file: httpProxy = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: applycommunication = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: webdavCredential = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: webdavHost = 'localhost'
+2026/11/22 09:18:57 - INFO - Adding property from file: webdavUsername = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webdavPassword = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webdavInsecure = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: exporter = 'ELIOT'
+2026/11/22 09:18:57 - INFO - Adding property from file: exportPath = '/tmp'
+2026/11/22 09:18:57 - INFO - Adding property from file: exportDestination = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: senderEmail = 'no-reply@ent.picardie.fr'
+2026/11/22 09:18:57 - INFO - Adding property from file: neo4jAAFPlugin = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: neo4jUri = 'http://neo4j:7474'
+2026/11/22 09:18:57 - INFO - Adding property from file: logoutCallback = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: dbName = 'one_gridfs'
+2026/11/22 09:18:57 - INFO - Adding property from file: mongoHost = 'mongo'
+2026/11/22 09:18:57 - INFO - Adding property from file: mongoPort = '27017'
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlDb = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlIp = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlUrl = 'jdbc:postgresql://postgres:5432/ong?stringtype=unspecified'
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlUsername = 'web-education'
+2026/11/22 09:18:57 - INFO - Adding property from file: fsStoragePath = '/srv/storage/'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternUidRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternUniversalisRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternLeSiteTvRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternKneRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternEliotRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternWebclasseursRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: patternEducagriRegisteredService = '^(http|https):\\/\\/www\\\\.educagrinet\\\\.educagri\\\\.fr\\/.*'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternEduMediaRegisteredService = '^(http|https):\\/\\/www\\\\.edumedia-sciences\\\\.com\\/.*'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternGepiRegisteredService = '^(http|https).*gepi.*'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternMSELRegisteredService = '^(http|https).*monstageenligne.*'
+2026/11/22 09:18:57 - INFO - Adding property from file: eliotExportedDelay = '600000'
+2026/11/22 09:18:57 - INFO - Adding property from file: eliotAppliCode = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: eliotUri = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: eliotSaasUri = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: themes = '{"_id": "default","displayName": "default","path": "/assets/themes/leo/default/"},{"_id": "dyslexic","displayName": "dyslexic","path": "/assets/themes/leo/dyslexic/"}'
+2026/11/22 09:18:57 - INFO - Adding property from file: resourcesApplications = 'workspace", "blog", "actualites", "wiki", "pages", "poll", "timelinegenerator", "rack", "forum", "community", "mindmap", "collaborativewall'
+2026/11/22 09:18:57 - INFO - Adding property from file: widgets = '{"name": "recorder", "path": "/public/template/record-me.html", "js": "/public/js/record-me.js"}, {"name": "calendar","path": "/public/template/calendar.html","js": "/public/js/calendar.js"},{"name": "notes","path": "/public/template/notes.html","js": "/public/js/notes.js"},{"name": "actualites","path": "/actualites/public/template/last-infos-widget.html","js": "/actualites/public/js/last-infos-widget.js","i18n": "/actualites/i18n"},{"name": "rss","path": "/rss/public/template/rss-widget.html","js": "/rss/public/js/rss-widget.js","i18n": "/rss/i18n"},{"name": "maxicours", "path": "/maxicours/public/template/maxicours-widget.html", "js": "/maxicours/public/js/maxicours-widget.js", "i18n": "/maxicours/i18n"},{"name": "cursus", "path": "/cursus/public/template/cursus-widget.html", "js": "/cursus/public/js/cursus-widget.js", "i18n": "/cursus/i18n"}'
+2026/11/22 09:18:57 - INFO - Adding property from file: defaultCommunicationRules = '{"Structure-Personnel" : { "users" : "BOTH", "communiqueWith" : ["Structure-Teacher", "Structure-Relative", "Structure-Student"]},"Structure-Teacher" : { "users" : "BOTH", "communiqueWith" : ["Structure-Personnel", "Structure-Relative", "Structure-Student"]},"Structure-Student" : {"users" : "BOTH"},"Structure-Relative" : {"users" : "OUTGOING"},"Class-Personnel" : {"users" : "OUTGOING"},"Class-Teacher" : {"users" : "OUTGOING"},"Class-Student" : { "users" : "BOTH", "communiqueWith" : ["Class-Teacher", "Structure-Personnel"]},"Class-Relative" : { "users" : "BOTH", "Relative-Student" : "BOTH", "communiqueWith" : ["Structure-Personnel", "Class-Teacher"]}}'
+2026/11/22 09:18:57 - INFO - Adding property from file: assetsPath = '/srv/springboard'
+2026/11/22 09:18:57 - INFO - Adding property from file: entcoreVersion = '6.18.1'
+2026/11/22 09:18:57 - INFO - Adding property from file: swiftUri = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: swiftContainer = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: swiftUser = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: swiftKey = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: passwordRegex = '.*'
+2026/11/22 09:18:57 - INFO - Adding property from file: cursusEndpoint = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: cursusAuthConf = '{}'
+2026/11/22 09:18:57 - INFO - Adding property from file: neo4jPlugin = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: activateEscalation = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: activationAutoLogin = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: sharedConf = '{"smsProvider": "OVH"}'
+2026/11/22 09:18:57 - INFO - Adding property from file: smsProvider = 'Sinch'
+2026/11/22 09:18:57 - INFO - Adding property from file: authMandatoryFields = '{}'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternProEPSRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: samlMetadataFolder = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: samlPrivateKey = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: federationLoginUri = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: federationCallBackParam = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: samlServicesProviders = '{}'
+2026/11/22 09:18:57 - INFO - Adding property from file: autoExport = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: smsProviders = '{"OVH": { "applicationKey": "", "applicationSecret": "", "consumerKey": "" }}'
+2026/11/22 09:18:57 - INFO - Adding property from file: federatedAddress = '{}'
+2026/11/22 09:18:57 - INFO - Adding property from file: activationWelcomeMessage = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: teacherForgotPasswordEmail = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: createdUserEmail = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: cnsConfig = '[{}]'
+2026/11/22 09:18:57 - INFO - Adding property from file: classDefaultRoles = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: keyring = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: themeVersion = '0.20.0'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternGRRRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: samlIssuer = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: samlSLO = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: emailConfig = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: skin = 'raw'
+2026/11/22 09:18:57 - INFO - Adding property from file: modSftp = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: directoryCalendarSwitch = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: moodleServer = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: moodleWsPath = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: timeSecondSynchCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: numberOfMaxDuplicationTentatives = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: numberOfMaxPendingDuplication = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: timeDuplicationBeforeDelete = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: idStudent = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: idEditingTeacher = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: idAuditeur = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: wstoken = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: header = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: deleteCategoryId = '0'
+2026/11/22 09:18:57 - INFO - Adding property from file: idGuest = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: publicBankCategoryId = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: mainCategoryId = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: userMail = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: maxicoursWsEndpoint = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: maxicoursConnectorEndpoint = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: timeCheckNotifs = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: fsAvatarPath = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: flatAvatarStorage = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: adminZimbra = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garDemo = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: garExportPath = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garExportCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garIdENT = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garRessourcesHost = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garRessourcesCert = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garRessourcesKey = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpHost = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpPort = '22'
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpUsername = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpPassphrase = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpSshkey = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpDirDest = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garSftpKnownHost = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: academyPrefix = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: mediacentrePaginationLimit = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: xsdRecipientList = '[]'
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticServerURI = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticIndexName = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webConferenceBBBHost = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webConferenceBBBAPIEndpoint = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webConferenceBBBSecret = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: webConferenceDefaultShare = '[]'
+2026/11/22 09:18:57 - INFO - Adding property from file: allowPublicLink = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: publicHolidays = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: schoolHolidays = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: zimbraMaxRecipients = '50'
+2026/11/22 09:18:57 - INFO - Adding property from file: rgpdCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: maxResponsesExportPDF = '100'
+2026/11/22 09:18:57 - INFO - Adding property from file: maxUsersSharing = '1000'
+2026/11/22 09:18:57 - INFO - Adding property from file: enableRbs = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticSearchSsl = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticSearchUsername = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticSearchPassword = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: calendarSyncTTL = '3600'
+2026/11/22 09:18:57 - INFO - Adding property from file: wikiPaginationLimit = '5'
+2026/11/22 09:18:57 - INFO - Adding property from file: nextcloudQuota = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: moodleDefaultShare = '[]'
+2026/11/22 09:18:57 - INFO - Adding property from file: notifyCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: explorerEsUrl = 'http://elasticsearch:9200'
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlDb = 'ong'
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlIp = 'postgres'
+2026/11/22 09:18:57 - INFO - Adding property from file: pgAdminUser = 'web-education'
+2026/11/22 09:18:57 - INFO - Adding property from file: enableZimbra = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestServer = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestDownload = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestPythonServerPort = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestPortRange = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestLink = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestWiki = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestMessaging = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minetestShuttingDownCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: mediacentreUpdateFrequency = '60000'
+2026/11/22 09:18:57 - INFO - Adding property from file: magnetoUpdateFrequency = '10000'
+2026/11/22 09:18:57 - INFO - Adding property from file: magnetoIsStandalone = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: magnetoWebsocketMaxUsers = '5000'
+2026/11/22 09:18:57 - INFO - Adding property from file: magnetoWebsocketMaxUsersPerBoard = '500'
+2026/11/22 09:18:57 - INFO - Adding property from file: magnetoWebsocketPort = '9092'
+2026/11/22 09:18:57 - INFO - Adding property from file: supportThresholdDirectExportTickets = '10000'
+2026/11/22 09:18:57 - INFO - Adding property from file: loolServer = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: loolTypeProvider = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: loolUrlProvider = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: mediacentreHighlightsPins = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: elasticServerURIs = '[]'
+2026/11/22 09:18:57 - INFO - Adding property from file: notifyBoardTemplate = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: mediacentreTextHighlightsPins = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: enableCalendarReminder = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: calendarReminderCron = '0 0 0 1 * ? 2099'
+2026/11/22 09:18:57 - INFO - Adding property from file: themePlatform = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: selfEnrollmentCategoryId = '0'
+2026/11/22 09:18:57 - INFO - Adding property from file: closingCron = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: minHoursBeforeCancellation = '24'
+2026/11/22 09:18:57 - INFO - Adding property from file: daysBeforeNotifClosing = '1'
+2026/11/22 09:18:57 - INFO - Adding property from file: host = 'silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev'
+2026/11/22 09:18:57 - INFO - Adding property from file: ssl = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: skins = '{"silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev": "openent", "localhost:8090": "openent"}'
+2026/11/22 09:18:57 - INFO - Adding property from file: csrfToken = 'true'
+2026/11/22 09:18:57 - INFO - Adding property from file: signKey = '79ea1668cd67f7b131c26d6b157527efd9f7a649c1c28e4f1f01511ccbbaed98'
+2026/11/22 09:18:57 - INFO - Adding property from file: sqlPassword = 'c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08'
+2026/11/22 09:18:57 - INFO - Adding property from file: pgAdminPwd = 'c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08'
+2026/11/22 09:18:57 - INFO - Adding property from file: credentials_postgresql_apps = 'c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternDefaultRegisteredService = '(?!)'
+2026/11/22 09:18:57 - INFO - Adding property from file: patternPronoteRegisteredService = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: garDevMode = 'false'
+2026/11/22 09:18:57 - INFO - Adding property from file: mongoDbName = 'one_gridfs'
+2026/11/22 09:18:57 - INFO - Adding property from file: modPostgresUrl = 'jdbc:postgresql://postgres:5432/ong?stringtype=unspecified'
+2026/11/22 09:18:57 - INFO - Adding property from file: bprEnabled = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: emailProvider = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: cantooOptionalFeatureScriptPath = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: restrictCRUDToADMC = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: visiblesSearchType = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: getVisibleStrategy = ''
+2026/11/22 09:18:57 - INFO - Adding property from file: debounceTimeToAutoSave = '5000'
+2026/11/22 09:18:57 - INFO - Adding property from file: brokerType = 'nats'
+2026/11/22 09:18:57 - INFO - Adding property from file: brokerNatsUrl = 'nats://nats:4222'
+2026/11/22 09:18:57 - INFO - Adding property from file: xitiSwitch = ''
+2026/11/22 09:18:57 - INFO - Found 51 module configuration files : ['/opt/conf/org.entcore~conversation~6.18.1/template.j2', '/opt/conf/com.opendigitaleducation~mod-json-schema-validator~2.2-SNAPSHOT/template.j2', '/opt/conf/org.entcore~admin~6.18.1/template.j2', '/opt/conf/fr.wseduc~mod-zip~3.3-SNAPSHOT/template.j2', '/opt/conf/org.entcore~communication~6.18.1/template.j2', '/opt/conf/net.atos~rss~2.2.4/template.j2', '/opt/conf/net.atos~community~2.2.8/template.j2', '/opt/conf/org.entcore~timeline~6.18.1/template.j2', '/opt/conf/fr.wseduc~mod-webdav~2.2.1/template.j2', '/opt/conf/fr.openent~share-big-files~2.3.8/template.j2', '/opt/conf/org.entcore~session~6.16.11/template.j2', '/opt/conf/fr.openent~appointments~1.7.1/template.j2', '/opt/conf/fr.wseduc~pages~2.2.7/template.j2', '/opt/conf/net.atos~calendar~4.3.9/template.j2', '/opt/conf/org.entcore~infra~6.18.1/template.j2', '/opt/conf/org.entcore~auth~6.18.1/template.j2', '/opt/conf/org.entcore~workspace~6.18.1/template.j2', '/opt/conf/org.entcore~app-registry~6.18.1/template.j2', '/opt/conf/org.entcore~feeder~6.18.1/template.j2', '/opt/conf/org.entcore~cns~2.2.5/template.j2', '/opt/conf/net.atos~timelinegenerator~3.4.12/template.j2', '/opt/conf/fr.wseduc~mod-pdf-generator~2.2-SNAPSHOT/template.j2', '/opt/conf/net.atos~support~4.1.11/template.j2', '/opt/conf/net.atos~wiki~3.6.21/template.j2', '/opt/conf/fr.wseduc~mod-postgresql~2.2-SNAPSHOT/template.j2', '/opt/conf/io.vertx~mod-mongo-persistor~4.2-SNAPSHOT/template.j2', '/opt/conf/net.atos~collaborative-editor~3.4.10/template.j2', '/opt/conf/fr.openent~search-engine~2.2.6/template.j2', '/opt/conf/org.entcore~portal~6.18.1/template.j2', '/opt/conf/org.entcore~directory~6.18.1/template.j2', '/opt/conf/org.entcore~cas~6.18.1/template.j2', '/opt/conf/net.atos~mindmap~3.5.17/template.j2', '/opt/conf/fr.wseduc~fake-sso~2.2.5/template.j2', '/opt/conf/org.entcore~audience~6.18.1/template.j2', '/opt/conf/com.opendigitaleducation~explorer~2.6.19/template.j2', '/opt/conf/fr.cgi~mod-sftp~2.2-SNAPSHOT/template.j2', '/opt/conf/net.atos~bookmark~2.2.5/template.j2', '/opt/conf/fr.wseduc~stats~2.6.5/template.j2', '/opt/conf/fr.openent~exercizer~4.4.12/template.j2', '/opt/conf/net.atos~poll~2.2.6/template.j2', '/opt/conf/org.entcore~archive~6.18.1/template.j2', '/opt/conf/org.entcore~blog~5.5.19/template.j2', '/opt/conf/net.atos~actualites~3.2.15/template.j2', '/opt/conf/net.atos~rbs~2.2.7/template.j2', '/opt/conf/org.entcore~probes~6.16.11/template.j2', '/opt/conf/net.atos~forum~2.2.7/template.j2', '/opt/conf/org.entcore~broker~6.16.11/template.j2', '/opt/conf/net.atos~collaborativewall~3.5.17/template.j2', '/opt/conf/fr.wseduc~rack~3.2.14/template.j2', '/opt/conf/fr.openent~formulaire~3.1.13/template.j2', '/opt/conf/fr.wseduc~mod-sms-proxy~2.2-SNAPSHOT/template.j2']
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~conversation~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/com.opendigitaleducation~mod-json-schema-validator~2.2-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~admin~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~mod-zip~3.3-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~communication~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~rss~2.2.4/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~community~2.2.8/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~timeline~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~mod-webdav~2.2.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.openent~share-big-files~2.3.8/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~session~6.16.11/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.openent~appointments~1.7.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~pages~2.2.7/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~calendar~4.3.9/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~infra~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~auth~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~workspace~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~app-registry~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~feeder~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~cns~2.2.5/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~timelinegenerator~3.4.12/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~mod-pdf-generator~2.2-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~support~4.1.11/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~wiki~3.6.21/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~mod-postgresql~2.2-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/io.vertx~mod-mongo-persistor~4.2-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~collaborative-editor~3.4.10/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.openent~search-engine~2.2.6/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~portal~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~directory~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~cas~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~mindmap~3.5.17/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~fake-sso~2.2.5/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~audience~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/com.opendigitaleducation~explorer~2.6.19/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.cgi~mod-sftp~2.2-SNAPSHOT/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~bookmark~2.2.5/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~stats~2.6.5/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/fr.openent~exercizer~4.4.12/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~poll~2.2.6/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~archive~6.18.1/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~blog~5.5.19/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~actualites~3.2.15/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~rbs~2.2.7/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~probes~6.16.11/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/net.atos~forum~2.2.7/template.j2
+2026/11/22 09:18:57 - INFO - Processing module configuration file: /opt/conf/org.entcore~broker~6.16.11/template.j2
+2026/11/22 09:18:58 - INFO - Processing module configuration file: /opt/conf/net.atos~collaborativewall~3.5.17/template.j2
+2026/11/22 09:18:58 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~rack~3.2.14/template.j2
+2026/11/22 09:18:58 - INFO - Processing module configuration file: /opt/conf/fr.openent~formulaire~3.1.13/template.j2
+2026/11/22 09:18:58 - INFO - Processing module configuration file: /opt/conf/fr.wseduc~mod-sms-proxy~2.2-SNAPSHOT/template.j2
+2026/11/22 09:18:58 - INFO - Services processed
+2026/11/22 09:18:58 - INFO - Using main template file: /out/ent-core.json.save
+2026/11/22 09:18:58 - WARNING - Generated output is not valid JSON, skipping beautification: Expecting ',' delimiter: line 16 column 22 (char 332)
+2026/11/22 09:18:58 - WARNING - Error 'Expecting ',' delimiter: line 16 column 22 (char 332)' near line 16, column 22:
+   1: {
+   2:   "assets-path": "/srv/springboard",
+   3:   "metricsOptions": {
+   4:     "enabled": true,
+   5:     "prometheusOptions": {
+   6:       "enabled": true,
+   7:       "startEmbeddedServer": true,
+   8:       "embeddedServerOptions": {
+   9:         "port": 9090,
+  10:         "embeddedServerEndpoint": "/metrics/vertx"
+  11:       }
+  12:     }
+  13:   },
+  14: 
+  15:   "sharedConf": {
+  16:     "smsProvider": ""Sinch"",
+  17:   
+  18:   "node-pdf-generator" : {
+  19:     "pdf-connector-id": "exportpdf",
+  20:     "auth": "",
+  21:     "url" : "http://pdf:3000"
+2026/11/22 09:18:58 - WARNING - Complete file was : {
+  "assets-path": "/srv/springboard",
+  "metricsOptions": {
+    "enabled": true,
+    "prometheusOptions": {
+      "enabled": true,
+      "startEmbeddedServer": true,
+      "embeddedServerOptions": {
+        "port": 9090,
+        "embeddedServerEndpoint": "/metrics/vertx"
+      }
+    }
+  },
+
+  "sharedConf": {
+    "smsProvider": ""Sinch"",
+  
+  "node-pdf-generator" : {
+    "pdf-connector-id": "exportpdf",
+    "auth": "",
+    "url" : "http://pdf:3000"
+    },
+
+  
+  "key": "79ea1668cd67f7b131c26d6b157527efd9f7a649c1c28e4f1f01511ccbbaed98",
+  
+  
+  "cluster" : true,
+  "skins": {"silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev": "openent", "localhost:8090": "openent"},
+  
+  
+    "file-system" : {
+      "path" : "/srv/storage/",
+      "flat" : false
+    },
+    
+    
+    "sharedConf": {"smsProvider": "OVH"},
+    
+    
+    "emailConfig": {
+      "email": "no-reply@ent.picardie.fr",
+      "host": "silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+      "type": "smtp",
+      "postgresql":{
+        "host": "postgres",
+        "database": "ong",
+        "port": 5432,
+        "user": "web-education",
+        "password": "c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08",
+        "pool-size": 10
+      }
+    },
+    
+    "eventConfig": {
+     "user-blacklist" : []
+    },
+    "emailValidationConfig": {
+      "active": false,
+      "ttlInSeconds": 600,
+      "retryNumber": 5,
+      "waitInSeconds": 10
+	},
+    "content-transformer": {
+      "url": "http://content-transformer:3000",
+      "content-transformer-metrics": {
+        "enabled": true
+      }
+    },
+    "redisConfig": {
+            "host": "redis",
+            "port": 6379,
+      "maxPoolWaiting": 2024,
+      "maxWaitingHandlers": 2024
+  },
+      "explorerConfig": {
+          "enabled": true,
+          "postgres": false,
+          "redis": true
+      },
+    "mongoConfig" : {
+      "hosts" : [ {
+        "host": "mongo",
+        "port": 27017
+      }],
+      "db_name": "one_gridfs",
+      "use_mongo_types" : true
+    },
+    "postgresConfig":{
+        "host": "postgres",
+        "database": "ong",
+        "port": 5432,
+        "user": "web-education",
+        "password": "c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08",
+        "pool-size": 50
+    },
+    "neo4jConfig" : {
+      
+      "server-uri": "http://neo4j:7474/db/data/",
+      
+      "slave-readonly": false,
+      "legacy-indexes" : [{ "for" : "node", "name" : "node_auto_index", "type" : "fulltext" }]
+    }
+  },
+"services" : [
+{
+  "name": "org.entcore~conversation",
+  "config": {
+    "main": "org.entcore.conversation.Conversation",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "app-type" : "END_USER",
+    "mode": "prod",
+    "csrf-token": true,
+    "ssl": true,
+    "optimized-thread-list" : false,
+    "recall-delay-minutes": 60,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "app-address": "/conversation/conversation",
+    "port": 8019,
+    "app-name": "Messagerie",
+    "app-icon": "conversation-large",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "block-route-filter": false,
+    
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "conversation"],
+        "metrics": {
+          "enabled": true
+        }
+      }
+    },
+    "sql": true,
+    "db-schema": "conversation",
+    "purge-grace-period": 36,
+    
+    
+    "get-visible-strategy": "all-at-once",
+    "inactive-user-threshold": 50,
+    "publicConf": {
+      "screeb-app-id": "",
+    	"debounce-time-to-auto-save": 5000,
+    	"mail-to-exercizer": false    
+    }
+  }
+},
+{
+   "name": "com.opendigitaleducation~mod-json-schema-validator",
+   "waitDeploy" : true,
+   "worker": true,
+   "multi-threaded": true,
+   "config": {
+      "address" : "json.schema.validator",
+      "instances": 50
+   }
+},
+{
+  "name": "org.entcore~admin",
+  "config": {
+    "main":"org.entcore.admin.Admin",
+    "port": 8089,
+    "csrf-token" : false,
+    "ssl" : true,
+    "mode": "prod",
+    "auto-redeploy": false,
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "mass-messaging-enabled": false,
+    "publicConf": {
+      
+      "screeb-app-id": ""
+    },
+    
+    
+    "app-name" : "Admin",
+    "app-address" : "/admin",
+    "app-icon" : "admin-large",
+    "services" : {
+      
+        "zimbra" : false,
+      
+      "edt" : true,
+      "calendar" : false,
+      "subjects" : false
+    },
+    "hide-adminv1-link": true,
+    "allow-adml-structure-name-change": true,
+    "enable-manual-group-autolink": false,
+    "enable-flashmsg-user-position-field": false
+  }
+},
+{
+  "name": "fr.wseduc~mod-zip",
+  "waitDeploy" : true,
+  "worker": true,
+  "config": {
+    "address": "entcore.zipper"
+  }
+},
+{
+  "name": "org.entcore~communication",
+  "config": {
+    "main": "org.entcore.communication.Communication",
+    "auto-redeploy": false,
+    "ssl": true,
+    "app-type" : "SYSTEM",
+    "app-address": "/communication",
+    "xp-com-rules": true,
+    "csrf-token": true,
+    "discoverVisibleExpectedProfile": [],
+    "mode": "prod",
+    "port": 8015,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "initDefaultCommunicationRules": {},
+    "visibles-search-type": "light"
+  }
+},
+{
+  "name": "net.atos~rss",
+  "config": {
+    "main": "net.atos.entng.rss.Rss",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8028,
+    "app-name": "Rss",
+    "csrf-token": true,
+    "app-address": "/rss",
+    "app-icon": "rss-large",
+    "app-type" : "WIDGET",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "net.atos~community",
+  "config": {
+    "main": "net.atos.entng.community.Community",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8078,
+    "csrf-token": true,
+    "mongodb": true,
+    "app-name": "Community",
+    "app-address": "/community",
+    "app-icon": "community-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "mode": "prod"
+  }
+},
+{
+  "name": "org.entcore~timeline",
+  "config": {
+    "main": "org.entcore.timeline.Timeline",
+    "port": 8016,
+    "isolate-mobile": false,
+    "cache": false,
+    
+    "app-name": "Timeline",
+    "app-address": "/timeline/timeline",
+    "app-type" : "SYSTEM",
+    "sql": true,
+    "db-schema": "flashmsg",
+    "auto-redeploy": false,
+    "ssl": true,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "maxRecipientLength": 1000,
+    
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    
+      "daily-mailing-cron" : "0 0 * * * ? *",
+      "weekly-mailing-cron": "0 30 7 ? * 1 *",
+      "purge-messages-read-cron": "0 0 2  * * ? *",
+    
+    "mode": "prod",
+    "use-optimized" : true,
+    "log-push-notifs": false,
+    "legacy-push-notif": true,
+    "remove-push-notifs-404-tokens": true,
+    "specific-homepages-host": [],
+    "publicConf": {
+      "screeb-app-id": ""
+    }
+  }
+},
+{
+  "name": "fr.wseduc~mod-webdav",
+  "waitDeploy" : true,
+  "worker": true,
+  "config": {
+    "address": "webdav",
+    "credentials": {
+      "localhost": {
+        "username": "",
+        "password": "",
+        "insecure": true
+      }
+    }
+  }
+},
+{
+  "name": "fr.openent~share-big-files",
+  "config": {
+    "main" : "fr.openent.sharebigfiles.ShareBigFiles",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port" : 8052,
+    "csrf-token": true,
+    "app-name" : "ShareBigFiles",
+    "app-address" : "/sharebigfiles",
+    "app-icon" : "sharebigfiles-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl" : true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port" : 8012,
+    "mode" : "prod",
+    "entcore.port" : 8009,
+    
+      "file-system" : {
+        "path" : "/srv/sharebigfiles",
+        "flat" : false,
+        "blockedExtensions" : ["ade","and","adp","ani","asp","asx","bas","bat","cab","cga","cgb","cgc","cgd","cge","cgf","cgg","cgh","cgi","cgj","cgk","cgl","cgm","cgn","cgo","cgp","cgq","cgr","cgs","cgt","cgu","cgv","cgw","cgx","cgy","cgz","chk","chm","clp","cmd","cnf","cod","col","com","conf","config","cpio","cpl","cpp","crl","crt","csh","exe","grp","hhp","hlp","ht","hta","idx","inf","ins","isp","job","js","jse","lnk","mcw","mdb","mde","msc","msg","msi","mso","msp","msrcincident","msstyles","mst","pcd","pif","prf","rar","reg","sc2","scd","scf","sch","schema","scp","scr","sct","shb","shs","shtm","shtml","svg","swf","url","vb","vbe","vbs","vxd","wab","wax","wbk","wcs","wdb","web","webinfo","webpnp","wht","wiz","wizhtml","wll","wm","wma","wmd","wmdb","wmf","wms","wmx","wmz","wpc","wpl","wpz","wri","wsc","wsdl","wsf","wsh","wtx","wvx"]
+        
+      },
+    
+    "expirationDateList" : [1,5,10,30],
+    "maxQuota": 2147483648,
+    
+      "purgeFilesCron" : "0 0 23 * * ?",
+      "enableCheckFileCron": true,
+      "enableCleanFileCron": true,
+    
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "big-files"],
+        "consumer-block-ms": 0,
+        "consumer-name": "xss-analyzer-big-files-app",
+        "consumer-group": "xss-analyzer-big-files-group",
+        "metrics": {
+          "enabled": true
+        }
+      },
+      "mime-types": [".*image/svg.*"],
+      "max-size": 20000000
+    },
+    "maxRepositoryQuota" : 1099511627776
+  }
+},
+{
+  "name": "org.entcore~session",
+  "worker": true,
+  "waitDeploy": true,
+  "config": {
+    "broker-session-listener": true,
+    "slo": true,
+    "slo-oidc-backchannel-logout": false,
+    "inactivity": false,
+    
+    "session_timeout": 1800000
+  }
+},
+{
+  "name": "fr.openent~appointments",
+  "config": {
+	"main": "fr.openent.appointments.Appointments",
+	"port": 8483,
+	"csrf-token": true,
+	"app-name": "Appointments",
+	"app-address": "/appointments",
+	"app-icon": "appointments-large",
+	"app-type" : "END_USER",
+	"host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+	"ssl": true,
+	"sql" : true,
+	"userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+	"integration-mode": "HTTP",
+	"app-registry.port": 8012,
+	"mode": "prod",
+	"probes": [
+	"org.entcore.common.http.health.Neo4jProbe",
+	"org.entcore.common.http.health.MongoProbe",
+	"fr.wseduc.webutils.metrics.EventBusProbe"
+	],
+	"entcore.port": 8009,
+	
+		"closing-cron": "0 0 0 * * ? *",
+	
+	"min-hours-before-cancellation": 24,
+	"theme-platform": "ent-default"
+  }
+},
+{
+  "name": "fr.wseduc~pages",
+  "config": {
+    "main": "fr.wseduc.pages.Pages",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "fr.wseduc.webutils.metrics.EventBusProbe"
+    ],
+    "port": 8025,
+    "app-name": "Pages",
+    "app-address": "/pages",
+    "app-icon": "pages-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "mode": "prod"
+  }
+},
+{
+  "name": "net.atos~calendar",
+  "config": {
+    "main": "net.atos.entng.calendar.Calendar",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8098,
+    "csrf-token": true,
+    "app-name": "Calendar",
+    "app-address": "/calendar",
+    "app-icon": "calendar-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009,
+    "enable-rbs": false,
+    "enable-zimbra": false,
+    "calendarSyncTTL": 3600,
+    "enableReminder": true,
+    
+    	
+    		"calendarReminderCron": "0 0 0 1 * ? 2099"
+    	
+    
+  }
+},
+{ 
+  "name": "org.entcore~infra",
+  "waitDeploy" : true,
+  "config" : {
+    "main": "org.entcore.infra.Starter",
+    "port": 8001,
+    "mode": "prod",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "app-address": "/infra",
+    "neo4jMetricsEnable": true,
+    
+    
+    
+    "auto-redeploy": false,
+    "path-prefix": "infra",
+    "ssl": true,
+    "antivirus": false,
+    
+    "csrf-token": true,
+    "sql": true,
+    
+      "hard-bounces-cron" : "0 0 6 * * ? *",
+    
+    "sharedConf": {
+      "smsProvider": "Sinch",
+      "ent-version": "",
+      "forced-mfa-profiles": "",
+      "findVisiblesTimeout": 60000,
+      "sharesPartitionSize": 50,
+      "sharesMaxCheckSize": 1000
+    }
+  }
+},
+{
+  "name": "org.entcore~auth",
+  "config": {
+    "main": "org.entcore.auth.Auth",
+    "port": 8009,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "app-address" : "/auth",
+    "httpServerOptions": {"maxFormAttributeSize": 2147483647},
+    "otp-disabled": true,
+    
+    
+    "auto-redeploy": false,
+    "ssl": true,
+    
+    
+    "maxRetry": 20,
+    "private-etabs-prefix-educonnect": false,
+    "safeRedirect":{
+      "delayInMinutes": 30,
+      "defaultDomains": []
+    },
+    "sessions-limit": 0,
+    "ip-allowed-by-pass-limit": [],
+    "reset-code-expire-delay":86400000,
+    
+    "app-type" : "SYSTEM",
+    
+    "csrf-token": true,
+    "cgu": true,
+    "mode": "prod",
+    
+    "email": "",
+    
+    "activationAutoLogin": true,
+    "teacherForgotPasswordEmail": false,
+    "authorize-mobile-session": ["app-e"],
+    "reset-pwd-mail-ignore-error": true,
+    "send-forgot-password-email-with-reset-code": false,
+    "check-federated-login": true,
+    "log-send-email-ack": true,
+    "publicConf" : {
+      "intl-phone-input": {
+      	"preferredCountries": ["fr", "mx", "es", "co", "gf", "pf", "gp", "yt", "nc", "pm", "wf", "gy", "mq", "mm", "ph"],
+      	"initialCountry": "auto"
+      }
+    },
+    
+    "authenticationServer": {
+      "loginURL": "/auth/login",
+      "logoutURL": "/auth/logout",
+      "loginCallback": "",
+      "logoutCallback": ""
+    },
+    
+    "jwt-ttl-seconds": 30,
+    
+    
+    
+    
+        
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "passwordRegex": ".{8}.*",
+    "specific-wayf-v2-host": []
+  }
+},
+{
+  "name": "org.entcore~workspace",
+  "config": {
+    "main": "org.entcore.workspace.Workspace",
+    "auto-redeploy": false,
+    "mode": "prod",
+    "wsPort": 6502,
+    "csrf-token": true,
+    "ssl": true,
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "neo4jPlugin": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "app-name": "Espace documentaire",
+    "app-address": "/workspace/workspace",
+    "app-icon": "workspace-large",
+    "port": 8011,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "old-query": false,
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "workspace"],
+        "consumer-block-ms": 0,
+        "consumer-name": "xss-analyzer-workspace-app",
+        "consumer-group": "xss-analyzer-workspace-group",
+        "metrics": {
+          "enabled": true
+        }
+      },
+      "mime-types": [".*image/svg.*"],
+      "max-size": 20000000
+    },
+    "mongo-address": "wse.mongodb.persistor",
+    
+    
+    
+    
+      
+    "searching-event": true,
+    
+      "export-path": "/srv/storage/exports",
+    
+    
+    "publicConf": {
+      "lazy-mode": true,
+      
+        
+        
+      
+      "ttl-documents":180,
+      "ttl-folders":600
+    }
+  }
+},
+{
+  "name": "org.entcore~app-registry",
+  "waitDeploy" : true,
+  "config": {
+    "main": "org.entcore.registry.AppRegistry",
+    "auto-redeploy": false,
+    "app-type" : "SYSTEM",
+    "csrf-token": true,
+    "mode": "prod",
+    "ssl": true,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    
+    
+    
+    
+    
+    
+    "port": 8012,
+    "app-address": "/appregistry",
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "app-registry"],
+        "metrics": {
+          "enabled": true
+        }
+      }
+    }
+  }
+},
+{
+  "name": "org.entcore~feeder",
+  "worker": true,
+  "config": {
+    "mode": "prod",
+    "csrf-token": true,
+    "neo4j-address": "wse.neo4j.persistor",
+    "apply-communication-rules": true,
+    "aafNeo4jPlugin": false,
+    "store-delete-user-event": false,
+    "check-exists-relationships": true,
+    "allow-manual-actions-during-feeds": false,
+    "exclude-mark-duplicates-by-source" : ["CSV"],
+    "ad-login-alias-validator": false,
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "feeder"],
+        "metrics": {
+          "enabled": true
+        }
+      }
+    },
+    "import-files": "",
+    "execute-merge-ine": true,
+    "support-perseducnat-1d-2d": true,
+    "feeder" : "",
+    
+    
+    
+    
+    
+      "pre-delete-cron" : "0 0 3 11 11 ? 2099",
+      "delete-cron" : "0 30 5 * * ? 2099",
+    
+    "mongodb": true,
+    
+    
+    "import-person-in-charge": false,
+    "auto-export": false,
+    "udt-user-creation" : false,
+    "exporter": "ELIOT",
+    "export-path": "/tmp",
+    "delete-export" : false,
+    "export-destination": "",
+    "validation-file-path": ""
+  }
+},
+{
+  "name": "org.entcore~cns",
+  "config": {
+    "main": "org.entcore.cns.Cns",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8086,
+    "app-name": "Cns",
+    "app-address": "/cns",
+    "app-icon": "cns-large",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "auto-redeploy": false,
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009,
+    "wsConfig": [{}]
+  }
+},
+{
+  "name": "net.atos~timelinegenerator",
+  "config": {
+    "main": "net.atos.entng.timelinegenerator.TimelineGenerator",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8099,
+    "csrf-token": true,
+    "app-name": "TimelineGenerator",
+    "app-address": "/timelinegenerator",
+    "app-icon": "timelinegenerator-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "fr.wseduc~mod-pdf-generator",
+  "waitDeploy" : true,
+  "worker": true,
+  "config": {
+    "main": "fr.wseduc.pdfgenerator.PDFGenerator",
+    "address": "entcore.pdf.generator"
+  }
+},
+{
+  "name": "net.atos~support",
+  "config": {
+    "main" : "net.atos.entng.support.Support",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port" : 8027,
+  	"csrf-token": true,
+    "sql" : true,
+    "mongodb" : true,
+    "neo4j" : true,
+    "app-name" : "Aide et support",
+    "app-address" : "/support",
+    "app-displayName": "support",
+    "app-icon" : "support-large",
+		"app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl" : true,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "mode" : "prod",
+    "activate-escalation" : false,
+		"activate-rich-editor" : false,
+    
+		
+		"threshold-direct-export-tickets": "10000"
+  }
+},
+{
+  "name": "net.atos~wiki",
+  "config": {
+    "main": "net.atos.entng.wiki.Wiki",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8030,
+    "csrf-token": true,
+    "app-name": "Wiki",
+    "app-address": "/wiki",
+    "app-icon": "wiki-large",
+    "platform-name": "",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "mode": "prod",
+    "pagination-limit": 5,
+    "searching-event": true,
+
+    "publicConf": {
+      "screeb-app-id": ""
+    }
+  }
+},
+{
+  "name": "fr.wseduc~mod-postgresql",
+  "waitDeploy" : true,
+  "worker": true,
+  "config": {
+    "address": "sql.persistor",
+    "instances": 5,
+    "workerPoolSize": 5,
+    "workerPoolName": "pg-pool",
+    "url": "jdbc:postgresql://postgres:5432/ong?stringtype=unspecified",
+    
+    "username": "web-education",
+    "password": "c2c3f6b7d2b94856bab4407cf3d67e5ccf6b2fc386614c08",
+    "pool_size": 2
+  }
+}
+,
+    {
+      "name": "io.vertx~mod-mongo-persistor",
+      "waitDeploy" : true,
+        "worker": false,
+      "config": {
+        
+        
+        
+        
+        
+        "address": "wse.mongodb.persistor",
+        
+        "db_name": "one_gridfs",
+        
+        "host": "mongo",
+        
+        
+        "port": 27017,
+        
+        "use_mongo_types": true,
+        "use_ssl": true,
+        
+        
+        "pool_size": 4
+      }
+    },
+{
+  "name": "net.atos~collaborative-editor",
+  "config": {
+    "main": "net.atos.entng.collaborativeeditor.CollaborativeEditor",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8668,
+    "max-pool-size": 5,
+    
+    "csrf-token": true,
+    "app-name": "Collaborative Editor",
+    "app-address": "/collaborativeeditor",
+    "app-icon": "pad-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    
+    "etherpad-api-key": "",
+    
+      "unusedPadCron": "0 0 23 * * ? *",
+    
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "fr.openent~search-engine",
+  "config": {
+    "main" : "fr.openent.searchengine.SearchEngine",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "fr.wseduc.webutils.metrics.EventBusProbe"
+    ],
+    "port" : 8053,
+    "csrf-token": true,
+    "app-name" : "Searchengine",
+    "app-address" : "/searchengine",
+    "app-icon" : "searchengine-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl" : true,
+    "auto-redeploy": false,
+    
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port" : 8012,
+    "mode" : "prod",
+    "entcore.port" : 8009,
+    "max-sec-time-allowed" : 4,
+    "paging-size-per-collection" : 10,
+    "search-word-min-size" : 4
+  }
+},
+{
+  "name": "org.entcore~portal",
+  "config": {
+    "port": 8017,
+    "auto-redeploy": false,
+    
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    
+    "ssl": true,
+    "app-type" : "SYSTEM",
+    
+    "csrf-token": true,
+		"optionalFeature-cantoo-scriptPath": "",
+    
+      "zendeskGuide": {
+        "key": "",
+        "color": "#ffc400",
+        "articleRedirectButton": true,
+        "modules": {"admin":{"labels":{"admin":"admin/home","admin/management/infos":"admin/structure/menu","admin/management/message-flash/list":"admin/flashmessage","admin/management/block-profiles":"admin/massblocking","admin/management/calendar":"admin/calendar","admin/users/list/filter":"admin/user/menu","admin/users/list/details":"admin/user/fields","admin/users/list/communication":"admin/user/communication","admin/groups/profileGroup":"admin/group/profilgroup","admin/groups/manualGroup":"admin/group/manualgroup","admin/groups/manualGroup/details":"admin/group/manualgroup","admin/groups/functionalGroup":"admin/group/educationgroup","admin/groups/functionGroup":"admin/group/function","admin/management/import-edt":"admin/importedt","admin/management/positions":"admin/positions","admin/services/applications":"admin/application","admin/services/connectors":"admin/connector","admin/services/widgets":"admin/widget","admin/alertes/signalements":"admin/alert","admin/imports-exports/import-csv":"admin/import","admin/imports-exports/export":"admin/export","admin/imports-exports/massmail":"admin/massmail","admin/groups/profileGroup/details":"admin/group/communication","admin/groups/profileGroup/communication":"admin/group/communication","admin/groups/manualGroup/communication":"admin/group/manualgroup"},"default":"admin/home"},"actualites":{"labels":{"actualites#/default":"actualites/default/${profile}"},"default":"actualites"},"calendar":{"labels":{},"default":"calendar"},"support":{"labels":{},"default":"support"},"blog":{"labels":{"blog?view=home":"blog/home","blog?view=home#/view":"blog/home","blog#/view":"blog/view"},"default":"blog/home"},"homeworks":{"labels":{"homeworks#":"homeworks/home/${profile}","homeworks#/view-homeworks":"homeworks/view/${profile}"},"default":"homeworks/home"},"diary":{"labels":{"diary#/administrator/global":"diary/home/${adml}/${profile}","diary#/view":"diary/vuecalendaire/${profile}","diary#/progressions/view":"diary/progressions/${profile}","diary#/archives/notebooks/view":"diary/archives/${profile}","diary#/list":"diary/home/${profile}"},"default":"diary/home/${adml}/${profile}"},"scrapbook":{"labels":{"scrapbook#":"scrapbook/home","scrapbook#/view-scrapbook":"scrapbook/view"},"default":"scrapbook/home"},"schoolbook":{"labels":{"schoolbook#/list":"schoolbook/home/${profile}","schoolbook#/report":"schoolbook/report/${profile}"},"default":"schoolbook/home/${profile}"},"mindmap":{"labels":{},"default":"mindmap/${profile}"},"rack":{"labels":{},"default":"rack"},"community":{"labels":{},"default":"community"},"communities":{"labels":{},"default":"communities"},"competences":{"labels":{"competences#":"competences/home/${adml}/${profile}","competences#/devoirs/list":"competences/evaluations/${profile}","competences#/releve":"competences/releve/${profile}","competences#/competences/eleve":"competences/suivieleve/${profile}","competences#/projets":"competences/projets/${profile}","competences#/export":"competences/export/${adml}/${profile}","competences#/bulletin":"competences/bulletin/${adml}/${profile}"},"default":"competences/home/${adml}/${profile}"},"edt":{"labels":{},"default":"agenda/${adml}/${profile}"},"workspace":{"labels":{},"default":"workspace"},"exercizer":{"labels":{"exercizer#/dashboard":"exercizer/dashboard/${profile}","exercizer#/subject/edit":"exercizer/subject/${profile}","exercizer#/subject/copy/perform/simple":"exercizer/subject/${profile}","exercizer#/dashboard/teacher/correction":"exercizer/correction/${profile}","exercizer#/subject/edit/simple":"exercizer/subject/${profile}","exercizer#/subject/copy/perform":"exercizer/subject/${profile}"},"default":"exercizer/dashboard/${profile}"},"formulaire":{"labels":{"formulaire#/list/mine":"formulaire/home/${profile}","formulaire#/form/edit":"formulaire/edit/${profile}","formulaire#/list/responses":"formulaire/reponse"},"default":"formulaire/home/${profile}"},"forum":{"labels":{},"default":"forum"},"timelinegenerator":{"labels":{"timelinegenerator":"timelinegenerator/home","timelinegenerator#/view":"timelinegenerator/view"},"default":"timelinegenerator/home"},"archive":{"labels":{},"default":"archive"},"mediacentre":{"labels":{},"default":"mediacentre"},"conversation":{"labels":{},"default":"conversation"},"collaborativewall":{"labels":{},"default":"collaborativewall/${profile}"},"collaborativeeditor":{"labels":{},"default":"collaborativeeditor"},"pages":{"labels":{"pages#/list-sites":"pages/home/${profile}","pages#/website":"pages/edit/${profile}"},"default":"pages/home"},"directory":{"labels":{},"default":"classadmin/home"},"presences":{"labels":{"presences#/dashboard":"presences/dashboard/${adml}/${profile}/${theme}","presences#":"presences/registry/${adml}/${profile}/${theme}","presences#/registers":"presences/registers/${adml}/${profile}/${theme}","presences#/events":"presences/events/${adml}/${profile}/${theme}","presences#/presences":"presences/presences/${adml}/${profile}/${theme}","presences#/calendar":"presences/calendar/${adml}/${profile}/${theme}","presences#/alerts":"presences/alerts/${adml}/${profile}/${theme}","presences#/statements-absences":"presences/statements/${adml}/${profile}/${theme}","presences#/exemptions":"presences/exemptions/${adml}/${profile}/${theme}","presences#/collective-absences":"presences/collectiveabsences/${adml}/${profile}/${theme}"},"default":"presences/dashboard/${adml}/${profile}/${theme}"},"massmailing":{"labels":{},"default":"presences/massmailing/${adml}/${profile}/${theme}"},"statistics-presences":{"labels":{},"default":"presences/statistics/${adml}/${profile}/${theme}"},"incidents":{"labels":{"incidents#/incidents":"presences/incidents/${adml}/${profile}/${theme}","incidents#/punishment/sanction":"presences/punishment/${adml}/${profile}/${theme}"},"default":"presences/incidents/${adml}/${profile}/${theme}"},"rbs":{"labels":{},"default":"reservationressources/${adml}"},"website":{"labels":{},"default":"website"},"stats":{"labels":{},"default":"stats"},"wiki":{"labels":{},"default":"courswiki/${profile}"},"viescolaire":{"labels":{"viescolaire#/viescolaire/accueil":"viescolaire/home/${adml}/${profile}","viescolaire#/viescolaire/accueil?filter=Evaluation":"viescolaire/evaluation/${adml}/${profile}","viescolaire#/viescolaire/accueil?filter=Presences":"viescolaire/presences/${adml}/${profile}/${theme}","viescolaire#/viescolaire/accueil?filter=Cahier%20de%20texte":"viescolaire/cahierdetextes/${adml}/${profile}","viescolaire#/viescolaire/accueil?filter=Emploi%20du%20temps":"viescolaire/emploidutemps/${adml}/${profile}"},"default":"viescolaire/evaluation/${adml}/${profile}"},"timeline":{"labels":{"timeline/timeline":"timeline","timeline/preferencesView":"moncompte/notificationsexternes","timeline/historyView":"moncompte/historique"},"default":"timeline"},"welcome":{"labels":{},"default":"mesapplis"},"homework-assistance":{"labels":{},"default":"homeworkassistance"},"geogebra":{"labels":{},"default":"geogebra"},"lool":{"labels":{},"default":"lool"},"lystore":{"labels":{},"default":"lystore"},"magneto":{"labels":{"magneto#":"magneto/home","magneto#/board/view":"magneto/board/view"},"default":"magneto/home"},"minetest":{"labels":{},"default":"minetest"},"minibadge":{"labels":{},"default":"minibadge"},"moodle":{"labels":{},"default":"moodle"},"searchengine":{"labels":{},"default":"searchengine"},"sharebigfiles":{"labels":{},"default":"sharebigfiles"},"poll":{"labels":{},"default":"poll"},"webconference":{"labels":{},"default":"webconference"},"zimbra":{"labels":{},"default":"zimbra"},"userbook":{"labels":{"userbook/annuaire#/search":"userbook","userbook/mon-compte#/edit-me":"moncompte/monprofil","userbook/annuaire?myClass&token/myClass#/myClass":"laclasse","userbook/mon-compte#/themes":"moncompte/theme"},"default":"userbook"}},"nabook":{"labels":{},"default":"nabook"},"assistance-tic":{"labels":{},"default":"assistance-tic"},"appointments":{"labels":{},"default":"appointments"}, "votil":{"labels":{},"default":"vote"}, "livret-scolaire":{"labels":{},"default":"livret"}
+      },
+     
+    "mode": "prod",
+    "assets-path": "/srv/springboard",
+    "path-prefix": "",
+    "emailProvider": [],
+    "root-page": "/timeline/timeline",
+    "urls": {
+      "userbook": "/userbook",
+      "auth": "/auth",
+      "portal": "/",
+      "logoutCallback": ""
+    },
+    "admin-urls": [
+      {
+        "name": "directory",
+        "url": "/directory/admin-console"
+      },
+      {
+        "name": "appRegistry",
+        "url": "/appregistry/admin-console"
+      },
+      {
+        "name": "wizard",
+        "url": "/directory/wizard"
+      },
+      {
+        "name": "timeline.history",
+        "url": "/timeline/admin-history"
+      },
+      {
+        "name": "timeline",
+        "url": "/timeline/admin-console",
+        "allowed": [
+          "SUPER_ADMIN"
+        ]
+      },
+      {
+        "name": "welcomeMessage",
+        "url": "/auth/admin-welcome-message",
+        "allowed": [
+          "SUPER_ADMIN"
+        ]
+      },
+      {
+        "name": "embed",
+        "url": "/infra/embed/admin",
+        "allowed": [
+          "SUPER_ADMIN"
+        ]
+      },
+      
+      
+      {
+        "name": "calendar",
+        "url": "/directory/calendar"
+      },
+      {
+        "name": "keyring",
+        "url": "/sso/keyring/admin-console",
+        "allowed": [
+          "SUPER_ADMIN"
+        ]
+      },
+      {
+        "name": "flashMessage",
+          "url": "/timeline/flashmsg/admin",
+          "allowed": [
+            "SUPER_ADMIN"
+          ]
+      }
+    ],
+    "widgets": [
+      {
+        "name": "recorder",
+        "path": "/public/template/record-me.html",
+        "js": "/public/js/record-me.js"
+      },
+      {
+        "name": "calendar",
+        "path": "/public/template/calendar.html",
+        "js": "/public/js/calendar.js"
+      },
+      {
+        "name": "actualites",
+        "path": "/actualites/public/template/last-infos-widget.html",
+        "js": "/actualites/public/js/last-infos-widget.js",
+        "i18n": "/actualites/i18n"
+      },
+      
+        {
+          "name": "rss",
+          "path": "/rss/public/template/rss-widget.html",
+          "js": "/rss/public/js/rss-widget.js",
+          "i18n": "/rss/i18n"
+        },
+      
+	    
+      {
+        "name": "notes",
+        "path": "/public/template/notes.html",
+        "js": "/public/js/notes.js"
+      }
+    ],
+    "resources-applications": [
+      "workspace",
+      "blog",
+      "actualites",
+      "wiki",
+      "pages",
+      "poll",
+      "timelinegenerator",
+      "community",
+      "mindmap",
+      "forum",
+      "homeworks",
+      "scrapbook",
+  	  "collaborativewall",
+		  "exercizer",
+		  "formulaire",
+		  "magneto",
+      "appointments" 
+    ],
+    
+    "my-apps-config": [{"name": "Actualites","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018742559-Pr%C3%A9sentation-de-l-application-Actualit%C3%A9s","en": "https://help.edifice.io/hc/en-gb/articles/360018742559-News-introduction","es": "https://help.edifice.io/hc/es-419/articles/360018742559-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Noticias"}},{"name": "Annuaire","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018743359-Pr%C3%A9sentation-de-l-application-Annuaire","en": "https://help.edifice.io/hc/en-gb/articles/360018743359-Directory-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018743359-Presentación-de-la-aplicación-Directorio"}},{"name": "Calendar","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5570293349276-Pr%C3%A9sentation-de-l-Agenda","en": "https://help.edifice.io/hc/en-gb/articles/5570293349276-Agenda-Presentation","es": "https://help.edifice.io/hc/es-419/articles/5570293349276-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Agenda"}},{"name": "Aide et support","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018743999-Pr%C3%A9sentation-de-l-application-Assistance-ENT","en": "https://help.edifice.io/hc/en-gb/articles/360018743999-Assistance-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018743999-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Ayuda"}},{"name": "library-info","category": "pedagogy","color": "purple","libraries": false,"isExternal": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5896833929372-Pr%C3%A9sentation-de-la-Biblioth%C3%A8que","en": "https://help.edifice.io/hc/en-gb/articles/5896833929372-Library-Presentation","es": "https://help.edifice.io/hc/es-419/articles/5896833929372-Presentaci%C3%B3n-de-la-Biblioteca"}},{"name": "Blog","category": "communication","color": "orange","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018673880-Pr%C3%A9sentation-de-l-application-Blog","en": "https://help.edifice.io/hc/en-gb/articles/360018673880-Blog-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018673880-Presentaci%C3%B3n-del-Blog"}},{"name": "Cahier de texte","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018701660-Pr%C3%A9sentation-de-l-application-Cahier-de-textes-Carnet-d-activit%C3%A9s","en": "https://help.edifice.io/hc/en-gb/articles/360018701660-Homework-notebook-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018701660-Presentaci%C3%B3n-de-la-Libreta-de-tareas"}},{"name": "Diary","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12352333912220-Pr%C3%A9sentation-du-Cahier-de-textes-2D","en": "https://help.edifice.io/hc/en-gb/articles/12352333912220-Presentation-of-the-Diary-app","es": "https://help.edifice.io/hc/es-419/articles/12352333912220-Presentaci%C3%B3n-de-la-Lista-de-tareas"}},{"name": "Cahier Multimédia","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018701960-Pr%C3%A9sentation-du-Cahier-Multim%C3%A9dia","en": "https://help.edifice.io/hc/en-gb/articles/360018701960-Multimedia-notebook-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018701960-Presentaci%C3%B3n-del-Cuaderno-Multimedia"}},{"name": "Schoolbook","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018771239-Pr%C3%A9sentation-du-Carnet-de-liaison","en": "https://help.edifice.io/hc/en-gb/articles/360018771239-Schoolbook-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018771239-Presentaci%C3%B3n-del-Cuaderno-de-correspondencia"}},{"name": "Mindmap","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018771359-Pr%C3%A9sentation-de-l-application-Carte-mentale","en": "https://help.edifice.io/hc/en-gb/articles/360018771359-Mind-map-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018771359-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Mapa-Mental"}},{"name": "Rack","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018702700-Pr%C3%A9sentation-de-l-application-Casier","en": "https://help.edifice.io/hc/en-gb/articles/360018702700-Presentation-of-the-Rack-App","es": "https://help.edifice.io/hc/es-419/articles/360018702700-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Casillero"}},{"name": "Community","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12333891407260-Pr%C3%A9sentation-de-l-application-Communaut%C3%A9s","en": "https://help.edifice.io/hc/en-gb/articles/12333891407260-Presentation-of-the-Communities-app","es": "https://help.edifice.io/hc/es-419/articles/12333891407260-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Comunidades"}},{"name":"Communities","category":"pedagogy","color":"purple","libraries":false,"version": "NEW","help":{"fr":"https://help.edifice.io/hc/fr/sections/23206860465820-Communaut%C3%A9s-Coll%C3%A8ges-et-Lyc%C3%A9es-Nouvelle-version","en":"https://help.edifice.io/hc/en-gb/sections/23206860465820-Communities-High-school-New-version","es":"https://help.edifice.io/hc/es-419/sections/23206860465820-Comunidad-colegio-instituto-Nueva-versi%C3%B3n"}},{"name": "Competences","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12334253934108-Pr%C3%A9sentation-de-Comp%C3%A9tences","en": "https://help.edifice.io/hc/en-gb/articles/12334253934108-Presentation-of-the-Skills-app","es": null}},{"name": "Administration","category": "organisation","color": "yellow","libraries": false,"isExternal": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5167202595612-A-qui-s-adresse-cette-cat%C3%A9gorie","en": "https://help.edifice.io/hc/en-gb/articles/5167202595612-Who-can-access-the-Admin-console","es": "https://help.edifice.io/hc/es-419/articles/5167202595612--Qui%C3%A9n-tiene-acceso-a-la-consola-de-administraci%C3%B3n"}},{"name": "Console Admin","category": "organisation","color": "yellow","libraries": false,"isExternal": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5167202595612-A-qui-s-adresse-cette-cat%C3%A9gorie","en": "https://help.edifice.io/hc/en-gb/articles/5167202595612-Who-can-access-the-Admin-console","es": "https://help.edifice.io/hc/es-419/articles/5167202595612--Qui%C3%A9n-tiene-acceso-a-la-consola-de-administraci%C3%B3n"}},{"name": "Wiki","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/17256898627484-Pr%C3%A9sentation-de-Cours-et-Wiki","en": "https://help.edifice.io/hc/en-gb/articles/17256898627484-Presentation-of-the-Lecture-and-Wiki-app","es": "https://help.edifice.io/hc/es-419/articles/17256898627484-Presentaci%C3%B3n-de-Cursos-y-Wiki"}},{"name": "Edt","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12368734214556-Pr%C3%A9sentation-de-l-Emploi-du-temps","en": "https://help.edifice.io/hc/en-gb/articles/12368734214556-Presentation-of-the-timetable-app","es": null}},{"name": "Espace documentaire","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018702820-Pr%C3%A9sentation-de-l-Espace-documentaire","en": "https://help.edifice.io/hc/en-gb/articles/360018702820-Presentation-of-the-Filespace-app","es": "https://help.edifice.io/hc/es-419/articles/360018702820-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Espacio-Documental"}},{"name": "Exercices et évaluations","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5702650331676-Pr%C3%A9sentation-de-l-application-Exercices","en": "https://help.edifice.io/hc/en-gb/articles/5702650331676-Presentation-of-the-exercices-app","es": "https://help.edifice.io/hc/es-419/articles/5702650331676-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Ejercicios"}},{"name": "Formulaire","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/5876062115868-Pr%C3%A9sentation-de-l-application-Formulaire","en": "https://help.edifice.io/hc/en-gb/articles/5876062115868-Presentation-of-the-form-app","es": "https://help.edifice.io/hc/es-419/articles/5876062115868-Presentaci%C3%B3n-del-Formulario"}},{"name": "Forum","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12437184364444-Pr%C3%A9sentation-de-l-application-Forum","en": "https://help.edifice.io/hc/en-gb/articles/12437184364444-Presentation-of-the-Forum-app","es": "https://help.edifice.io/hc/es-419/articles/12437184364444-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Foro"}},{"name": "TimelineGenerator","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018772039-Pr%C3%A9sentation-de-l-application-Frise-Chronologique","en": "https://help.edifice.io/hc/en-gb/articles/360018772039-Presentation-of-the-Timeline-app","es": "https://help.edifice.io/hc/es-419/articles/360018772039-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Barra-cronol%C3%B3gica"}},{"name": "Geogebra","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "livret-scolaire","category": "organisation","color": "green","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Magneto","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "livret-scolaire","category": "organisation","color": "green","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Mediacentre","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12609064528284-M%C3%A9diacentre-Pr%C3%A9sentation","en": "https://help.edifice.io/hc/en-gb/articles/12609064528284-M%C3%A9diacentre-Introduction","es": null}},{"name": "Archive","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018771799-Pr%C3%A9sentation-de-l-application-Mes-donn%C3%A9es","en": "https://help.edifice.io/hc/en-gb/articles/360018771799-My-Data-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018771799-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Mis-Datos"}},{"name": "Messagerie","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018703900-Pr%C3%A9sentation-de-l-application-Messagerie","en": "https://help.edifice.io/hc/en-gb/articles/360018703900-Mailbox-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018703900-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Correo-Electr%C3%B3nico"}},{"name": "Minetest","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "assistance-tic","category": "organisation","color": "yellow","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "MiniBadge","category": "organisation","color": "green","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Moodle","category": "connector"},{"name": "CollaborativeWall","category": "pedagogy","color": "blue","libraries": true,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12243605816604-Pr%C3%A9sentation-du-Mur-collaboratif","en": "https://help.edifice.io/hc/en-gb/articles/12243605816604-Collaborative-Noticeboard-Introduction","es": "https://help.edifice.io/hc/es-419/articles/12243605816604-Presentaci%C3%B3n-del-Muro-de-colaboraci%C3%B3n"}},{"name": "nabook","category": "pedagogy","color": "nabook-color","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/19317709653660-Pr%C3%A9sentation-de-l-application-Nabook","en": "https://help.edifice.io/hc/en-gb/articles/19317709653660-Nabook-Introduction","es": null}},{"name": "votil","category": "organisation","color": "yellow","libraries": false, "version": "NEW", "help": {"fr": null,"en": null,"es": null}},{"name": "Outils bureautiques","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Collaborative Editor","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018704360-Pr%C3%A9sentation-de-l-application-Pad","en": "https://help.edifice.io/hc/en-gb/articles/360018704360-Pad-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018704360-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Pad"}},{"name": "Pages","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12244538265372-Pr%C3%A9sentation-de-l-application-Pages","en": "https://help.edifice.io/hc/en-gb/articles/12244538265372-Pages-Introduction","es": null}},{"name": "Paramétrage de la classe","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018772939-Pr%C3%A9sentation-de-l-application-Param%C3%A9trage-de-la-classe","en": "https://help.edifice.io/hc/en-gb/articles/360018772939-Class-settings-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018772939-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Configuraci%C3%B3n-de-la-clase"}},{"name": "class_admin_default","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018772939-Pr%C3%A9sentation-de-l-application-Param%C3%A9trage-de-la-classe","en": "https://help.edifice.io/hc/en-gb/articles/360018772939-Class-settings-Introduction","es": "https://help.edifice.io/hc/es-419/articles/360018772939-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Configuraci%C3%B3n-de-la-clase"}},{"name": "Viescolaire","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/13127059434396-Param%C3%A9trages-de-Vie-scolaire","en": "https://help.edifice.io/hc/en-gb/articles/13127059434396-School-Office-settings-Introduction","es": null}},{"name": "ShareBigFiles","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/13125889297948-Pr%C3%A9sentation-de-Poste-fichiers","en": "https://help.edifice.io/hc/en-gb/articles/13125889297948-Big-file-sharing-tool-Introduction","es": null}},{"name": "Presences","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/8693056375580-Pr%C3%A9sentation-de-l-application-Pr%C3%A9sences","en": "https://help.edifice.io/hc/en-gb/articles/8693056375580-Presentation-of-the-Attendance-app","es": "https://help.edifice.io/hc/es-419/articles/8693056375580-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Asistencias"}},{"name": "Appointments","category": "organisation","color": "green","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Réservation de ressources","category": "organisation","color": "green","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/12606134641692-Pr%C3%A9sentation-de-l-application-R%C3%A9servation-de-ressources","en": "https://help.edifice.io/hc/en-gb/articles/12606134641692-Presentation-of-Resource-reservation-app","es": "https://help.edifice.io/hc/es-419/articles/12606134641692-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Reserva-de-Recursos"}},{"name": "website","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018773239-Cr%C3%A9er-un-nouveau-site-web","en": "https://help.edifice.io/hc/en-gb/articles/21291311306908-Websites-Presentation","es": "https://help.edifice.io/hc/es-419/articles/360018773239-Crear-un-nuevo-sitio-web"}},{"name": "Poll","category": "organisation","color": "green","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Statistiques","category": "organisation","color": "yellow","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018773319-Pr%C3%A9sentation-de-l-application-Statistiques","en": "https://help.edifice.io/hc/en-gb/articles/360018773319-Presentation-of-statistics-app","es": "https://help.edifice.io/hc/es-419/articles/360018773319-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Estad%C3%ADsticas"}},{"name": "Web-conference","category": "communication","color": "orange","libraries": false,"help": {"fr": "https://help.edifice.io/hc/fr/articles/360018773379-Pr%C3%A9sentation-de-l-application-Web-conf%C3%A9rence","en": "https://help.edifice.io/hc/en-gb/articles/360018773379-Presentation-of-the-Video-conference-app","es": "https://help.edifice.io/hc/es-419/articles/360018773379-Presentaci%C3%B3n-de-la-aplicaci%C3%B3n-Videoconferencia"}},{"name": "Zimbra","category": "communication","color": "orange","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Lool","category": "pedagogy","color": "blue","libraries": false,"help": {"fr": null,"en": null,"es": null}},{"name": "Searchengine","display": false}],
+    "publicConf": {
+	      "my-apps-connectors-threshold": 6
+  	},
+  	"my-apps-force-as-application": [
+  		{"field": "address", "fullMatch": false, "caseSensitive": true, "pattern": "library\\.opendigitaleducation\\.com" }, {"field": "address", "fullMatch": false, "caseSensitive": true, "pattern": "library\\.edifice\\.io" }
+  	],
+  	"my-apps-force-as-connector": [
+  		{"field": "name", "fullMatch": true, "caseSensitive": false, "pattern": "cns" }
+  	]
+  }
+},
+{
+  "name": "org.entcore~directory",
+  "waitDeploy": true,
+  "config": {
+    "main": "org.entcore.directory.Directory",
+    "auto-redeploy": false,
+    "ssl": true,
+    
+    "csrf-token": true,
+    "wizard-path": "/tmp",
+    "timetable-path": "/tmp",
+    "mode": "prod",
+    "app-type" : "SYSTEM",
+    "app-address": "/directory",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "port": 8003,
+    "email": "",
+    "app-name": "Directory",
+    "workspace-url": "localhost",
+    "workspace-port": 8011,
+    "workspace-prefix": "/workspace",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "sql": true,
+    "db-schema": "directory",
+    "activation-welcome-message": false,
+    "createdUserEmail": false,
+    "classDefaultRoles": false,
+    "listUserMode": "mono",
+    "visible-check" : true,        
+		 
+		
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "directory"],
+        "metrics": {
+          "enabled": true
+        }
+      }
+    },
+    "user-book-data": {
+      
+      "default-theme": "default",
+      "default-avatar": "no-avatar.jpg",
+      "default-mood": "default",
+      "moods": ["default", "happy", "proud", "dreamy", "love", "tired", "angry", "worried", "sick", "joker", "sad"],
+      "hobbies": [
+        "sport",
+        "cinema",
+        "animals",
+        "music",
+        "places",
+        "books"
+      ]
+    },
+    
+    "avatar-path":"/srv/avatars/",
+    
+    
+    
+    "enable-manual-group-autolink": false,
+    "publicConf": {
+      "feeders": [
+        "CSV"
+      ],
+      "federatedAddress": {},
+      
+      "userPosition": {
+        "restrictCRUDToADMC": false
+      }
+    }
+  }
+},
+{
+  "name": "org.entcore~cas",
+  "config": {
+    "main": "org.entcore.cas.Cas",
+    "port": 8023,
+    "enableStructureSplit": true,
+    "publicConf": { "skip": true },
+    "csrf-token": true,
+    "app-name": "Cas",
+    "app-address": "/cas",
+    "app-icon": "cas-large",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "app-type" : "SYSTEM",
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    
+    
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009,
+    "services": [
+      {
+        "class": "org.entcore.cas.services.EliotRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": [
+          "^(http|https):\/\/\/.*",
+          "(http|https):\/\/.+.la-vie-scolaire.fr.*"
+        ]
+      },
+      {
+        "class" : "org.entcore.cas.services.AcademicSuffixRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : [],
+        "academicPattern" : "^(AIX-MARSEILLE|PARIS-CRIF|VERSAILLES-CRIF|CRETEIL-CRIF|PARIS|CRETEIL|VERSAILLES|AGRICOLE)-([a-zA-Z0-9-]*)$",
+        "externalIdPrefix" : "^ENT\\$([0-9]*)$",
+        "academicSuffix" : [
+            "{\"source\": \"PARIS\" , \"target\" :\"020\"}",
+            "{\"source\": \"PARIS-CRIF\" , \"target\" :\"\"}",
+            "{\"source\": \"CRETEIL\" , \"target\" :\"009\"}",
+            "{\"source\": \"CRETEIL-CRIF\" , \"target\" :\"\"}",
+            "{\"source\": \"VERSAILLES\" , \"target\" :\"027\"}",
+            "{\"source\": \"VERSAILLES-CRIF\" , \"target\" :\"\"}",
+            "{\"source\": \"AGRICOLE\" , \"target\" :\"028\"}",
+            "{\"source\": \"AIX-MARSEILLE\" , \"target\" :\"\"}"
+        ]
+      },
+      {
+        "class": "org.entcore.cas.services.PronoteRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.KneRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.LeSiteTvRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.UniversalisRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.WebclasseursRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class" : "org.entcore.cas.services.ZimbraRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class": "org.entcore.cas.services.UidRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class" : "org.entcore.cas.services.UuidRegisteredService",
+        "principalAttributeName" : "userId",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.UaiRegisteredService",
+        "principalAttributeName" : "userId",
+        "patterns" : []
+      },
+      {
+        "class": "org.entcore.cas.services.ProEPSRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.EducagriRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.EduMediaRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.GepiRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.MSELRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.GRRRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class" : "org.entcore.cas.services.BRNERegisteredService",
+        "principalAttributeName" : "externalId",
+        "patterns" : []
+      },
+      {
+        "class": "org.entcore.cas.services.LabomepRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class" : "org.entcore.cas.services.EnglishAttackRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.CIDJRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class": "org.entcore.cas.services.PearltreesRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class" : "org.entcore.cas.services.ExplorateurDeMetiersRegisteredService",
+        "principalAttributeName" : "id",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.SalvumRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.MilliwebRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.PmbRegisteredService",
+        "principalAttributeName" : "login",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.IjboxRegisteredService",
+        "principalAttributeName" : "externalId",
+        "patterns" : []
+      },
+      {
+        "class" : "org.entcore.cas.services.EnseignoRegisteredService",
+        "principalAttributeName" : "id",
+        "patterns" : []
+      },
+      {
+        "class":"org.entcore.cas.services.AtNormandieRegisteredService",
+        "principalAttributeName":"id",
+        "patterns":[]
+      },
+      {
+        "class": "org.entcore.cas.services.DefaultRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.SpipRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": ["^(http|https):\/\/www.site.ac-aix-marseille.fr.*"]
+      },
+      {
+          "class": "org.entcore.cas.services.EleaRegisteredService",
+          "principalAttributeName": "login",
+          "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.ElmsRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.ExternalIdRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.GRR2RegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.Spip2RegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.WebGerestRegisteredService",
+        "principalAttributeName": "login",
+        "patterns": []
+      },
+      {
+      	"class": "org.entcore.cas.services.IkigaiRegisteredService",
+      	"principalAttributeName": "login",
+      	"patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.GenericRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+        "class": "org.entcore.cas.services.OdeRegisteredService",
+        "principalAttributeName": "externalId",
+        "patterns": []
+      },
+      {
+      	"class" : "org.entcore.cas.services.ProtectedEmailRegisteredService",
+      	"principalAttributeName" : "externalId",
+      	"patterns" : []
+      },
+      {
+        "class": "org.entcore.cas.services.SynchroMoodleRegistredService",
+        "patterns": [],
+        "principalAttributeName":
+        "login"
+      }
+    ]
+  }
+},
+{
+  "name": "net.atos~mindmap",
+  "config": {
+    "main": "net.atos.entng.mindmap.Mindmap",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8666,
+    "csrf-token": true,
+    "use-explorer-ui": true,
+    "auto-redeploy": false,
+    "app-name": "Mindmap",
+    "app-address": "/mindmap",
+    "app-icon": "mindmap-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "fr.wseduc~fake-sso",
+  "config": {
+    "main": "fr.wseduc.sso.FakeSSO",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe"
+    ],
+    "path-prefix": "sso",
+    "port": 8041,
+    "csrf-token": true,
+    "sql": true,
+    "mongodb": true,
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "app-type" : "SYSTEM",
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "mode": "prod",
+    "sso-controllers": [
+      {
+        "class": "fr.wseduc.sso.controllers.Charlemagne",
+        "config": {
+          "url": "https://www.ecoledirecte.com",
+          "teacherUrl": "https://www.ecoledirecte.com",
+          "siteId": "",
+          "privateKey": ""
+        }
+      },
+      
+      
+      {
+        "class": "fr.wseduc.sso.controllers.Pronote",
+        "config": {}
+      }
+    ]
+  }
+},
+{
+  "name": "org.entcore~audience",
+  "config": {
+    "main":"org.entcore.audience.Audience",
+    "port": 8091,
+    "csrf-token": true,
+    "ssl": true,
+    "mode": "prod",
+    "auto-redeploy": false,
+    "app-type" : "END_USER",
+    "app-name" : "Audience",
+    "app-address" : "/audience",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "sql": true,
+    "db-schema": "audience",
+    "publicConf": {
+      "reaction-types" : ["REACTION_1","REACTION_2","REACTION_3","REACTION_4"]
+    },
+    "broker": {
+      "natsModules": {
+        "communities": [ "announcement" ]
+      }
+    }
+  }
+},
+{
+  "name": "com.opendigitaleducation~explorer",
+  "config": {
+    "main" : "com.opendigitaleducation.explorer.Explorer",
+    "sql": true,
+    "delete-folder-definitely": true,
+    "clean-folder-cron": "0 0 5 * * ? 2099",
+    "port" : 8068,
+    "auto-redeploy": false,
+    "ssl": true,
+    "app-name" : "Explorer",
+    "app-address" : "/explorer",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "mode": "prod",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe",
+      "org.entcore.common.http.health.RedisProbe",
+      "org.entcore.common.http.health.OpenSearchProbe"
+    ],
+    "max-workertime-minutes":15,
+    "stream": "redis",
+    "create-index": false,
+    "enable-job": true,
+    
+    "metrics": {
+      "sla": [1000, 1500, 2000, 3000, 5000, 6000, 8000, 10000]
+    },
+    "elasticsearchConfig":{
+      
+      "uris": ["http://elasticsearch:9200"],
+      
+      "poolSize": 10,
+      "keepAlive": true,
+      "user": "",
+      "password": ""
+    },
+    "indexes": {},
+    "index-prefix": "",
+    "worker-job": true,
+    "postgres-enable-bus": true,
+    "ingest": {
+      "consumer-block-ms": 0,
+      "max-attempt": 10,
+      "batch-size": 10,
+      "max-delay-ms": 2000
+      
+    },
+    "applications": ["blog", "exercizer", "mindmap", "collaborativewall", "scrapbook", "timelinegenerator", "wiki", "homeworks", "collaborativeeditor"]
+  }
+},
+{
+    "name": "fr.cgi~mod-sftp",
+    "waitDeploy": true,
+    "worker" : true,
+    "config": {
+       "main" : "fr.cgi.sftp.Sftp",
+       "address" : "sftp"
+    }
+},
+{
+  "name": "net.atos~bookmark",
+  "config": {
+    "main": "net.atos.entng.bookmark.Bookmark",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8032,
+    "csrf-token": true,
+    "app-name": "Signets",
+    "app-address": "/bookmark",
+    "app-icon": "bookmark-large",
+    "app-type" : "WIDGET",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009
+  }
+},
+{
+ "name": "fr.wseduc~stats",
+  "config": {
+    "main" : "fr.wseduc.stats.Stats",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port" : 8225,
+    "app-name" : "Statistiques",
+    "app-address" : "/stats",
+    "app-icon" : "stats-large",
+    "app-displayName" : "stats",
+    "app-type" : "END_USER",
+    "ssl" : true,
+    "integration-mode": "HTTP",
+    "app-registry.port" : 8012,
+    "auto-redeploy": false,
+    "mode" : "prod",
+    "entcore.port" : 8009,
+	  "mock": false,
+    "mocks-path": "/tmp",
+    
+    
+    
+      "aggregation-cron": "0 0 0 * * ? 2099"
+    
+  }
+},
+{
+  "name": "fr.openent~exercizer",
+  "config": {
+    "main": "fr.openent.exercizer.Exercizer",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe"
+    ],
+    "port": 8105,
+    "csrf-token": true,
+    "app-name": "Exercices et évaluations",
+    "app-address": "/exercizer",
+    "app-icon": "exercizer-large",
+    "sql": true,
+    "app-type" : "END_USER",
+    "mongodb": true,
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "doc-to-exercizer": {
+      
+    },
+    
+      "scheduledNotificationCron": "0 0 4 * * ? *",
+    
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "exercizer"],
+        "consumer-block-ms": 0,
+        "consumer-name": "xss-analyzer-exercizer-app",
+        "consumer-group": "xss-analyzer-exercizer-group",
+        "metrics": {
+          "enabled": true
+        }
+      },
+      "mime-types": [".*image/svg.*"],
+      "max-size": 20000000
+    },
+    "entcore.port": 8009,
+    "publicConf": {
+      
+      "disable-timezone-check": false
+    }
+  }
+},
+{
+  "name": "net.atos~poll",
+  "config": {
+    "main" : "net.atos.entng.poll.Poll",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port" : 8070,
+    "csrf-token": true,
+    "app-name" : "Poll",
+    "app-address" : "/poll",
+    "app-icon" : "poll-large",
+    "app-type" : "END_USER",
+    "auto-redeploy": false,
+    
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl" : true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port" : 8012,
+    "mode" : "prod",
+    "entcore.port" : 8009
+  }
+},
+{
+  "name": "org.entcore~archive",
+  "config": {
+    "main": "org.entcore.archive.Archive",
+    "port": 8004,
+    "csrf-token": true,
+    "mode": "prod",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "email": "",
+    "auto-redeploy": false,
+    "app-name": "Archive",
+    "app-address": "/archive",
+    "app-icon": "archive-large",
+    "app-type" : "END_USER",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    "export-path": "/tmp",
+    "import-path": "/tmp",
+    "archive-private-key": "",
+    "force-encryption": false,
+    "enablePurgeByFileAge": true,
+    
+    "fileAnalyzer": {
+      "enabled": true,
+      "messaging": {
+        "type": "redis",
+        "stream": "xss-analyzer",
+        "tags": ["xss-analyzer", "archive"],
+        "metrics": {
+          "enabled": true
+        }
+      }
+    },
+  "publicConf": {
+    "apps" : {
+      
+      "community" : "net.atos.entng.community.controllers.CommunityController|create",
+      "rack" : "fr.wseduc.rack.controllers.RackController|postRack",
+      "blog" : "org.entcore.blog.controllers.BlogController|create",
+      "wiki" : "net.atos.entng.wiki.controllers.WikiController|createWiki",
+      "scrapbook" : "fr.wseduc.scrapbook.controllers.ScrapbookController|createScrapbook",
+      "homeworks" : "fr.wseduc.homeworks.controllers.HomeworksController|createHomework",
+      "forum" : "net.atos.entng.forum.controllers.ForumController|createCategory",
+      "pages" : "fr.wseduc.pages.controllers.PagesController|add",
+      "collaborativewall" : "net.atos.entng.collaborativewall.controllers.CollaborativeWallController|create",
+      "timelinegenerator" : "net.atos.entng.timelinegenerator.controllers.TimelineController|createTimeline",
+      "actualites" : "net.atos.entng.actualites.controllers.ThreadController|createThread",
+      "schoolbook" : "fr.wseduc.schoolbook.controllers.SchoolBookController|createWord",
+      "exercizer" : "fr.openent.exercizer.controllers.SubjectController|persist",
+      "calendar" : "net.atos.entng.calendar.controllers.CalendarController|createCalendar",
+      "mindmap" : "net.atos.entng.mindmap.controllers.MindmapController|create",
+      "formulaire" : "fr.openent.formulaire.controllers.FormController|initCreationRight",
+      "collaborativeeditor" : "net.atos.entng.collaborativeeditor.controllers.CollaborativeEditorController|create",
+      "workspace" : "org.entcore.workspace.controllers.WorkspaceController|addDocument"
+    },
+    "minimum-import-version": {
+  		"timelinegenerator": "1.7",
+  		"homeworks": "1.12" 
+    }
+  },
+  "purgeArchive": "0 0 2 * * ? *",
+  "periodicUserClear": 1800000
+  }
+},
+{
+  "name": "org.entcore~blog",
+  "config": {
+    "main": "org.entcore.blog.Blog",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "csrf-token": true,
+    "port": 8018,
+    "auto-redeploy": false,
+    "ssl": true,
+    "blog-search-word-min-size" : 3,
+    "app-name": "Blog",
+    "app-address": "/blog",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "mode": "prod",
+    "use-explorer-folder-api": true,
+    "use-explorer-ui": true,
+    "searching-event": true
+  }
+},
+{
+  "name": "net.atos~actualites",
+  "config": {
+    "main": "net.atos.entng.actualites.Actualites",
+    "port": 8022,
+    "optimized-query": true,
+    "optimized-share-service": true,
+    "csrf-token": true,
+    "sql": true,
+    "mongodb": true,
+    "app-name": "Actualites",
+    "app-address": "/actualites",
+    "app-icon": "actualites-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ],
+    
+    
+    "entcore.port": 8009,
+    "publicConf": {
+      "screeb-app-id": "",
+	  "genai": {
+	    "falcMinLength": 200,
+	    "falcTimeoutMs": 30000
+	  }
+    }
+  }
+},
+{
+  "name": "net.atos~rbs",
+  "config": {
+    "main": "net.atos.entng.rbs.Rbs",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.PostgresProbe"
+    ],
+    "port": 8026,
+    "csrf-token": true,
+    "sql": true,
+    "mongodb": true,
+    "app-name": "Réservation de ressources",
+    "app-address": "/rbs",
+    "app-icon": "rbs-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "mode": "prod"
+  }
+},
+{
+  "name": "org.entcore~probes",
+  "config": {
+    "main": "org.entcore.probes.Probes",
+    "port": 8777,
+    "isolate-mobile": false,
+    "cache": false,
+    "instances": 1,
+    "app-name": "Probes",
+    "app-address": "/probes",
+    "app-type" : "SYSTEM",
+    "auto-redeploy": true,
+    "ssl": true,
+    "probes": [
+    ],
+    "mode": "prod"
+  }
+},
+{
+  "name": "net.atos~forum",
+  "config": {
+    "main": "net.atos.entng.forum.Forum",
+    "port": 8024,
+    "csrf-token": true,
+    "app-name": "Forum",
+    "app-address": "/forum",
+    "app-icon": "forum-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "entcore.port": 8009,
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe",
+      "org.entcore.common.http.health.RedisProbe"
+    ]
+  }
+},
+{
+  "name": "org.entcore~broker",
+  "main":"org.entcore.broker.Broker",
+  "waitDeploy": true,
+  "config":{
+    "port": 8778,
+    "mode": "prod",
+    "path-prefix": "broker",
+    "app-type": "SYSTEM",
+    "auto-redeploy": false,
+    "app-name" : "Broker",
+    "app-address" : "http://localhost:8778/broker",
+    "sql": false,
+    "neo4j": false,
+    "probes": [
+      {
+        "name": "org.entcore.broker.client.NATSProbe",
+        "readiness": false,
+        "liveness": true
+      }
+    ],
+    "broker-type": "nats",
+    
+    "nats": [
+        {
+          "name": "ent",
+          "default": true,
+          "routing": [],
+          "client": {
+            
+            
+            "io.nats.client.pinginterval": "PT15s",
+            "io.nats.client.url": "nats://nats:4222",
+            "io.nats.client.reconnect.max": -1
+          }
+        }
+        
+    ],
+    
+    "publicConf": {
+    }
+  }
+},
+{
+  "name": "net.atos~collaborativewall",
+  "config": {
+    "main": "net.atos.entng.collaborativewall.CollaborativeWall",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8071,
+    "csrf-token": true,
+    "app-name": "CollaborativeWall",
+    "app-address": "/collaborativewall",
+    "app-icon": "collaborative-wall-large",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    "real-time": {
+     
+     "port": 9091,
+     "max-connected-user": 5
+    },
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "fr.wseduc~rack",
+  "config": {
+    "main": "org.wseduc.rack.Rack",
+    "probes": [
+      "org.entcore.common.http.health.Neo4jProbe",
+      "org.entcore.common.http.health.MongoProbe"
+    ],
+    "port": 8031,
+    "csrf-token": true,
+    "auto-redeploy": false,
+    "app-name": "Rack",
+    "app-address": "/rack",
+    "app-icon": "rack-large",
+    "app-displayName": "Rack",
+    "app-type" : "END_USER",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl": true,
+    
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "integration-mode": "HTTP",
+    "app-registry.port": 8012,
+    "mode": "prod",
+    
+    "entcore.port": 8009
+  }
+},
+{
+  "name": "fr.openent~formulaire",
+  "config": {
+    "main" : "fr.openent.formulaire.Formulaire",
+    "port" : 8067,
+    "app-name" : "Formulaire",
+    "app-address" : "/formulaire",
+    "app-icon" : "Formulaire-large",
+    "host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "ssl" : false,
+    "auto-redeploy": false,
+    "userbook-host": "https://silver-space-bassoon-vp5xv49jq9qq2w5v-8090.app.github.dev",
+    "sql" : true,
+    "db-schema" : "formulaire",
+    "app-registry.port" : 8012,
+    "mode" : "prod",
+    "entcore.port" : 8009, 
+	  "test": false,
+    
+      "rgpd-cron" : "0 0 0 */1 * ? *",
+      "notify-cron": "0 0 9 */1 * ? *",
+    
+    "zimbra-max-recipients": 50,
+    "max-responses-export-PDF": 100,
+    "max-users-sharing": 65000,
+    "days-before-notif-closing": 3,
+    "theme-platform": "ent-default"
+  }
+},
+{
+  "name": "fr.wseduc~mod-sms-proxy",
+  "waitDeploy" : true,
+  "worker": true,
+  "config": {
+    "main": "fr.wseduc.smsproxy.Sms",
+    "address": "entcore.sms",
+    "providers": {"OVH": { "applicationKey": "", "applicationSecret": "", "consumerKey": "" }}
+  }
+}
+]
+}
+2026/11/22 09:18:58 - WARNING - Error while rendering template:
+   1: {
+   2:   "assets-path": "/srv/springboard",
+   3:   "metricsOptions": {
+   4:     "enabled": true,
+   5:     "prometheusOptions": {
+   6:       "enabled": true,
+   7:       "startEmbeddedServer": true,
+   8:       "embeddedServerOptions": {
+   9:         "port": 9090,
+  10:         "embeddedServerEndpoint": "/metrics/vertx"
+  11:       }
+  12:     }
+  13:   },
+  14: 
+  15:   "sharedConf": {
+  16:     "smsProvider": ""Sinch"",
+  17:   
+  18:   "node-pdf-generator" : {
+  19:     "pdf-connector-id": "exportpdf",
+  20:     "auth": "",
+  21:     "url" : "http://pdf:3000"
+2026/11/22 09:18:58 - INFO - Checking the generated configuration file /out/entcore.fixed.json
+--- Logging error ---
+Traceback (most recent call last):
+  File "services/config_service.py", line 386, in generate_config
+  File "json/__init__.py", line 346, in loads
+  File "json/decoder.py", line 338, in decode
+  File "json/decoder.py", line 354, in raw_decode
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 16 column 22 (char 332)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "vertx_cli.py", line 120, in main
+  File "services/config_service.py", line 397, in generate_config
+ValueError: the generated configuration file /out/entcore.fixed.json is not valid JSON: Expecting ',' delimiter: line 16 column 22 (char 332)
+
+Error near line 16, column 22:
+  14: 
+  15:   "sharedConf": {
+  16:     "smsProvider": ""Sinch"",
+  17:   
+  18:   "node-pdf-generator" : {
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "logging/__init__.py", line 1160, in emit
+  File "logging/__init__.py", line 999, in format
+  File "logging/__init__.py", line 703, in format
+  File "logging/__init__.py", line 392, in getMessage
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "vertx_cli.py", line 145, in <module>
+  File "vertx_cli.py", line 132, in main
+  File "logging/__init__.py", line 2183, in error
+  File "logging/__init__.py", line 1568, in error
+  File "logging/__init__.py", line 1684, in _log
+  File "logging/__init__.py", line 1700, in handle
+  File "logging/__init__.py", line 1762, in callHandlers
+  File "logging/__init__.py", line 1028, in handle
+  File "logging/__init__.py", line 1168, in emit
+Message: 'Error: '
+Arguments: (ValueError('the generated configuration file /out/entcore.fixed.json is not valid JSON: Expecting \',\' delimiter: line 16 column 22 (char 332)\n\nError near line 16, column 22:\n  14: \n  15:   "sharedConf": {\n  16:     "smsProvider": ""Sinch"",\n  17:   \n  18:   "node-pdf-generator" : {'),)
